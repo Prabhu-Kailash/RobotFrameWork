@@ -1,0 +1,1080 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.1 (Python 3.8.2 on win32)" generated="20200809 22:14:36.792" rpa="false">
+<suite id="s1" name="Brainpool" source="C:\Users\pegAsus\workspace_python\SeleniumTrails\WebSiteTesting\tests\brainpool.robot">
+<test id="s1-t1" name="Site accessibility">
+<kw name="Start" library="params" type="setup">
+<arguments>
+<arg>${BROWSER}</arg>
+<arg>${URL}</arg>
+</arguments>
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>about:blank</arg>
+<arg>${BROWSER}</arg>
+</arguments>
+<msg timestamp="20200809 22:14:36.996" level="INFO">Opening browser 'headlesschrome' to base url 'about:blank'.</msg>
+<status status="PASS" starttime="20200809 22:14:36.996" endtime="20200809 22:14:40.224"></status>
+</kw>
+<kw name="Set Window Size" library="SeleniumLibrary">
+<doc>Sets current windows size to given ``width`` and ``height``.</doc>
+<arguments>
+<arg>1920</arg>
+<arg>1640</arg>
+</arguments>
+<status status="PASS" starttime="20200809 22:14:40.224" endtime="20200809 22:14:42.375"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20200809 22:14:42.375" endtime="20200809 22:14:42.483"></status>
+</kw>
+<kw name="Go To" library="SeleniumLibrary">
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<arguments>
+<arg>${URL}</arg>
+</arguments>
+<msg timestamp="20200809 22:14:42.484" level="INFO">Opening url 'https://brainpool.ai/'</msg>
+<status status="PASS" starttime="20200809 22:14:42.483" endtime="20200809 22:14:48.350"></status>
+</kw>
+<status status="PASS" starttime="20200809 22:14:36.996" endtime="20200809 22:14:48.351"></status>
+</kw>
+<kw name="Intialization" library="params">
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` is visible.</doc>
+<arguments>
+<arg>id=component-2</arg>
+</arguments>
+<status status="PASS" starttime="20200809 22:14:48.352" endtime="20200809 22:14:49.136"></status>
+</kw>
+<status status="PASS" starttime="20200809 22:14:48.352" endtime="20200809 22:14:49.136"></status>
+</kw>
+<kw name="Stop" library="params" type="teardown">
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20200809 22:14:49.137" endtime="20200809 22:14:51.218"></status>
+</kw>
+<status status="PASS" starttime="20200809 22:14:49.137" endtime="20200809 22:14:51.219"></status>
+</kw>
+<doc>site accessibility test</doc>
+<tags>
+<tag>Smoke</tag>
+</tags>
+<status status="PASS" starttime="20200809 22:14:36.996" endtime="20200809 22:14:51.220" critical="yes"></status>
+</test>
+<test id="s1-t2" name="LandingPage Start Now Button">
+<kw name="Start" library="params" type="setup">
+<arguments>
+<arg>${BROWSER}</arg>
+<arg>${URL}</arg>
+</arguments>
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>about:blank</arg>
+<arg>${BROWSER}</arg>
+</arguments>
+<msg timestamp="20200809 22:14:51.224" level="INFO">Opening browser 'headlesschrome' to base url 'about:blank'.</msg>
+<status status="PASS" starttime="20200809 22:14:51.224" endtime="20200809 22:14:54.398"></status>
+</kw>
+<kw name="Set Window Size" library="SeleniumLibrary">
+<doc>Sets current windows size to given ``width`` and ``height``.</doc>
+<arguments>
+<arg>1920</arg>
+<arg>1640</arg>
+</arguments>
+<status status="PASS" starttime="20200809 22:14:54.399" endtime="20200809 22:14:56.515"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20200809 22:14:56.515" endtime="20200809 22:14:56.626"></status>
+</kw>
+<kw name="Go To" library="SeleniumLibrary">
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<arguments>
+<arg>${URL}</arg>
+</arguments>
+<msg timestamp="20200809 22:14:56.626" level="INFO">Opening url 'https://brainpool.ai/'</msg>
+<status status="PASS" starttime="20200809 22:14:56.626" endtime="20200809 22:15:04.316"></status>
+</kw>
+<status status="PASS" starttime="20200809 22:14:51.223" endtime="20200809 22:15:04.316"></status>
+</kw>
+<kw name="Start Now" library="LandingPage">
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` is visible.</doc>
+<arguments>
+<arg>id=component-2</arg>
+</arguments>
+<status status="PASS" starttime="20200809 22:15:04.334" endtime="20200809 22:15:04.635"></status>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<doc>Clicks the button identified by ``locator``.</doc>
+<arguments>
+<arg>id=component-2</arg>
+</arguments>
+<msg timestamp="20200809 22:15:04.636" level="INFO">Clicking button 'id=component-2'.</msg>
+<status status="PASS" starttime="20200809 22:15:04.635" endtime="20200809 22:15:04.896"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5s</arg>
+</arguments>
+<msg timestamp="20200809 22:15:09.900" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20200809 22:15:04.897" endtime="20200809 22:15:09.900"></status>
+</kw>
+<kw name="Select Frame" library="SeleniumLibrary">
+<doc>Sets frame identified by ``locator`` as the current frame.</doc>
+<arguments>
+<arg>xpath=/html/body/iframe[1]</arg>
+</arguments>
+<msg timestamp="20200809 22:15:09.900" level="INFO">Selecting frame 'xpath=/html/body/iframe[1]'.</msg>
+<status status="PASS" starttime="20200809 22:15:09.900" endtime="20200809 22:15:13.224"></status>
+</kw>
+<kw name="Wait Until Page Contains" library="SeleniumLibrary">
+<doc>Waits until ``text`` appears on the current page.</doc>
+<arguments>
+<arg>Achieve Your AI Objectives</arg>
+</arguments>
+<status status="PASS" starttime="20200809 22:15:13.224" endtime="20200809 22:15:13.244"></status>
+</kw>
+<kw name="Go To" library="SeleniumLibrary">
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<arguments>
+<arg>https://brainpool.ai</arg>
+</arguments>
+<msg timestamp="20200809 22:15:13.245" level="INFO">Opening url 'https://brainpool.ai'</msg>
+<status status="PASS" starttime="20200809 22:15:13.244" endtime="20200809 22:15:14.224"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` is visible.</doc>
+<arguments>
+<arg>id=component-2</arg>
+<arg>10s</arg>
+</arguments>
+<status status="PASS" starttime="20200809 22:15:14.225" endtime="20200809 22:15:15.020"></status>
+</kw>
+<status status="PASS" starttime="20200809 22:15:04.333" endtime="20200809 22:15:15.021"></status>
+</kw>
+<kw name="Stop" library="params" type="teardown">
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20200809 22:15:15.022" endtime="20200809 22:15:17.109"></status>
+</kw>
+<status status="PASS" starttime="20200809 22:15:15.021" endtime="20200809 22:15:17.110"></status>
+</kw>
+<doc>Verifies if the Start Now button is accessible</doc>
+<tags>
+<tag>LandingPageStart</tag>
+</tags>
+<status status="PASS" starttime="20200809 22:14:51.222" endtime="20200809 22:15:17.110" critical="yes"></status>
+</test>
+<test id="s1-t3" name="Learn More Button">
+<kw name="Start" library="params" type="setup">
+<arguments>
+<arg>${BROWSER}</arg>
+<arg>${URL}</arg>
+</arguments>
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>about:blank</arg>
+<arg>${BROWSER}</arg>
+</arguments>
+<msg timestamp="20200809 22:15:17.114" level="INFO">Opening browser 'headlesschrome' to base url 'about:blank'.</msg>
+<status status="PASS" starttime="20200809 22:15:17.114" endtime="20200809 22:15:20.330"></status>
+</kw>
+<kw name="Set Window Size" library="SeleniumLibrary">
+<doc>Sets current windows size to given ``width`` and ``height``.</doc>
+<arguments>
+<arg>1920</arg>
+<arg>1640</arg>
+</arguments>
+<status status="PASS" starttime="20200809 22:15:20.330" endtime="20200809 22:15:22.445"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20200809 22:15:22.445" endtime="20200809 22:15:22.555"></status>
+</kw>
+<kw name="Go To" library="SeleniumLibrary">
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<arguments>
+<arg>${URL}</arg>
+</arguments>
+<msg timestamp="20200809 22:15:22.555" level="INFO">Opening url 'https://brainpool.ai/'</msg>
+<status status="PASS" starttime="20200809 22:15:22.555" endtime="20200809 22:15:32.044"></status>
+</kw>
+<status status="PASS" starttime="20200809 22:15:17.114" endtime="20200809 22:15:32.044"></status>
+</kw>
+<kw name="Learn More" library="LandingPage">
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` is visible.</doc>
+<arguments>
+<arg>id=component-22</arg>
+</arguments>
+<status status="PASS" starttime="20200809 22:15:32.046" endtime="20200809 22:15:32.102"></status>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<doc>Clicks the button identified by ``locator``.</doc>
+<arguments>
+<arg>id=component-22</arg>
+</arguments>
+<msg timestamp="20200809 22:15:32.103" level="INFO">Clicking button 'id=component-22'.</msg>
+<status status="PASS" starttime="20200809 22:15:32.103" endtime="20200809 22:15:32.453"></status>
+</kw>
+<status status="PASS" starttime="20200809 22:15:32.045" endtime="20200809 22:15:32.454"></status>
+</kw>
+<kw name="Stop" library="params" type="teardown">
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20200809 22:15:32.455" endtime="20200809 22:15:34.526"></status>
+</kw>
+<status status="PASS" starttime="20200809 22:15:32.454" endtime="20200809 22:15:34.526"></status>
+</kw>
+<doc>Verifies if the LearnMore button is accessible</doc>
+<tags>
+<tag>LandingPageLearnMore</tag>
+</tags>
+<status status="PASS" starttime="20200809 22:15:17.113" endtime="20200809 22:15:34.527" critical="yes"></status>
+</test>
+<test id="s1-t4" name="Explore1 Button">
+<kw name="Start" library="params" type="setup">
+<arguments>
+<arg>${BROWSER}</arg>
+<arg>${URL}</arg>
+</arguments>
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>about:blank</arg>
+<arg>${BROWSER}</arg>
+</arguments>
+<msg timestamp="20200809 22:15:34.531" level="INFO">Opening browser 'headlesschrome' to base url 'about:blank'.</msg>
+<status status="PASS" starttime="20200809 22:15:34.531" endtime="20200809 22:15:37.701"></status>
+</kw>
+<kw name="Set Window Size" library="SeleniumLibrary">
+<doc>Sets current windows size to given ``width`` and ``height``.</doc>
+<arguments>
+<arg>1920</arg>
+<arg>1640</arg>
+</arguments>
+<status status="PASS" starttime="20200809 22:15:37.702" endtime="20200809 22:15:39.820"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20200809 22:15:39.820" endtime="20200809 22:15:39.928"></status>
+</kw>
+<kw name="Go To" library="SeleniumLibrary">
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<arguments>
+<arg>${URL}</arg>
+</arguments>
+<msg timestamp="20200809 22:15:39.929" level="INFO">Opening url 'https://brainpool.ai/'</msg>
+<status status="PASS" starttime="20200809 22:15:39.928" endtime="20200809 22:15:54.782"></status>
+</kw>
+<status status="PASS" starttime="20200809 22:15:34.531" endtime="20200809 22:15:54.783"></status>
+</kw>
+<kw name="Explore1" library="LandingPage">
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` is visible.</doc>
+<arguments>
+<arg>id=component-2</arg>
+</arguments>
+<status status="PASS" starttime="20200809 22:15:54.785" endtime="20200809 22:15:55.594"></status>
+</kw>
+<kw name="Execute Javascript" library="SeleniumLibrary">
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<arguments>
+<arg>window.scrollTo(0,1000)</arg>
+</arguments>
+<msg timestamp="20200809 22:15:55.594" level="INFO">Executing JavaScript:
+window.scrollTo(0,1000)
+Without any arguments.</msg>
+<status status="PASS" starttime="20200809 22:15:55.594" endtime="20200809 22:15:55.603"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200809 22:15:56.603" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200809 22:15:55.603" endtime="20200809 22:15:56.603"></status>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<doc>Clicks the button identified by ``locator``.</doc>
+<arguments>
+<arg>id=component-21</arg>
+</arguments>
+<msg timestamp="20200809 22:15:56.603" level="INFO">Clicking button 'id=component-21'.</msg>
+<status status="PASS" starttime="20200809 22:15:56.603" endtime="20200809 22:15:56.718"></status>
+</kw>
+<status status="PASS" starttime="20200809 22:15:54.784" endtime="20200809 22:15:56.718"></status>
+</kw>
+<kw name="Stop" library="params" type="teardown">
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20200809 22:15:56.721" endtime="20200809 22:15:58.796"></status>
+</kw>
+<status status="PASS" starttime="20200809 22:15:56.720" endtime="20200809 22:15:58.796"></status>
+</kw>
+<doc>Verifies if the First Explore button is accessible</doc>
+<tags>
+<tag>LandingPageExplore1</tag>
+</tags>
+<status status="PASS" starttime="20200809 22:15:34.529" endtime="20200809 22:15:58.797" critical="yes"></status>
+</test>
+<test id="s1-t5" name="Explore2 Button">
+<kw name="Start" library="params" type="setup">
+<arguments>
+<arg>${BROWSER}</arg>
+<arg>${URL}</arg>
+</arguments>
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>about:blank</arg>
+<arg>${BROWSER}</arg>
+</arguments>
+<msg timestamp="20200809 22:15:58.801" level="INFO">Opening browser 'headlesschrome' to base url 'about:blank'.</msg>
+<status status="PASS" starttime="20200809 22:15:58.801" endtime="20200809 22:16:01.963"></status>
+</kw>
+<kw name="Set Window Size" library="SeleniumLibrary">
+<doc>Sets current windows size to given ``width`` and ``height``.</doc>
+<arguments>
+<arg>1920</arg>
+<arg>1640</arg>
+</arguments>
+<status status="PASS" starttime="20200809 22:16:01.963" endtime="20200809 22:16:04.074"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20200809 22:16:04.075" endtime="20200809 22:16:04.182"></status>
+</kw>
+<kw name="Go To" library="SeleniumLibrary">
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<arguments>
+<arg>${URL}</arg>
+</arguments>
+<msg timestamp="20200809 22:16:04.183" level="INFO">Opening url 'https://brainpool.ai/'</msg>
+<status status="PASS" starttime="20200809 22:16:04.183" endtime="20200809 22:16:19.729"></status>
+</kw>
+<status status="PASS" starttime="20200809 22:15:58.801" endtime="20200809 22:16:19.729"></status>
+</kw>
+<kw name="Explore2" library="LandingPage">
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` is visible.</doc>
+<arguments>
+<arg>id=component-2</arg>
+</arguments>
+<status status="PASS" starttime="20200809 22:16:19.731" endtime="20200809 22:16:20.542"></status>
+</kw>
+<kw name="Execute Javascript" library="SeleniumLibrary">
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<arguments>
+<arg>window.scrollTo(0,1200)</arg>
+</arguments>
+<msg timestamp="20200809 22:16:20.543" level="INFO">Executing JavaScript:
+window.scrollTo(0,1200)
+Without any arguments.</msg>
+<status status="PASS" starttime="20200809 22:16:20.542" endtime="20200809 22:16:20.552"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200809 22:16:21.555" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200809 22:16:20.553" endtime="20200809 22:16:21.555"></status>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<doc>Clicks the button identified by ``locator``.</doc>
+<arguments>
+<arg>id=component-aib</arg>
+</arguments>
+<msg timestamp="20200809 22:16:21.556" level="INFO">Clicking button 'id=component-aib'.</msg>
+<status status="PASS" starttime="20200809 22:16:21.555" endtime="20200809 22:16:21.720"></status>
+</kw>
+<status status="PASS" starttime="20200809 22:16:19.730" endtime="20200809 22:16:21.720"></status>
+</kw>
+<kw name="Stop" library="params" type="teardown">
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20200809 22:16:21.721" endtime="20200809 22:16:23.800"></status>
+</kw>
+<status status="PASS" starttime="20200809 22:16:21.721" endtime="20200809 22:16:23.800"></status>
+</kw>
+<doc>Verifies if the Second Explore button is accessible</doc>
+<tags>
+<tag>LandingPageExplore2</tag>
+</tags>
+<status status="PASS" starttime="20200809 22:15:58.800" endtime="20200809 22:16:23.802" critical="yes"></status>
+</test>
+<test id="s1-t6" name="ScrollToTopAction">
+<kw name="Start" library="params" type="setup">
+<arguments>
+<arg>${BROWSER}</arg>
+<arg>${URL}</arg>
+</arguments>
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>about:blank</arg>
+<arg>${BROWSER}</arg>
+</arguments>
+<msg timestamp="20200809 22:16:23.806" level="INFO">Opening browser 'headlesschrome' to base url 'about:blank'.</msg>
+<status status="PASS" starttime="20200809 22:16:23.806" endtime="20200809 22:16:26.969"></status>
+</kw>
+<kw name="Set Window Size" library="SeleniumLibrary">
+<doc>Sets current windows size to given ``width`` and ``height``.</doc>
+<arguments>
+<arg>1920</arg>
+<arg>1640</arg>
+</arguments>
+<status status="PASS" starttime="20200809 22:16:26.969" endtime="20200809 22:16:29.082"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20200809 22:16:29.083" endtime="20200809 22:16:29.191"></status>
+</kw>
+<kw name="Go To" library="SeleniumLibrary">
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<arguments>
+<arg>${URL}</arg>
+</arguments>
+<msg timestamp="20200809 22:16:29.191" level="INFO">Opening url 'https://brainpool.ai/'</msg>
+<status status="PASS" starttime="20200809 22:16:29.191" endtime="20200809 22:16:40.961"></status>
+</kw>
+<status status="PASS" starttime="20200809 22:16:23.806" endtime="20200809 22:16:40.961"></status>
+</kw>
+<kw name="ScrollToTop" library="LandingPage">
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` is visible.</doc>
+<arguments>
+<arg>id=component-2</arg>
+</arguments>
+<status status="PASS" starttime="20200809 22:16:40.963" endtime="20200809 22:16:41.769"></status>
+</kw>
+<kw name="Execute Javascript" library="SeleniumLibrary">
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<arguments>
+<arg>window.scrollTo(0,1000)</arg>
+</arguments>
+<msg timestamp="20200809 22:16:41.770" level="INFO">Executing JavaScript:
+window.scrollTo(0,1000)
+Without any arguments.</msg>
+<status status="PASS" starttime="20200809 22:16:41.769" endtime="20200809 22:16:41.783"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200809 22:16:42.784" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200809 22:16:41.784" endtime="20200809 22:16:42.784"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` is visible.</doc>
+<arguments>
+<arg>id=component-21</arg>
+</arguments>
+<status status="PASS" starttime="20200809 22:16:42.784" endtime="20200809 22:16:42.813"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` is visible.</doc>
+<arguments>
+<arg>xpath=/html/body/a</arg>
+</arguments>
+<status status="PASS" starttime="20200809 22:16:42.814" endtime="20200809 22:16:42.839"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=/html/body/a</arg>
+</arguments>
+<msg timestamp="20200809 22:16:42.840" level="INFO">Clicking element 'xpath=/html/body/a'.</msg>
+<status status="PASS" starttime="20200809 22:16:42.840" endtime="20200809 22:16:42.903"></status>
+</kw>
+<status status="PASS" starttime="20200809 22:16:40.963" endtime="20200809 22:16:42.903"></status>
+</kw>
+<kw name="Stop" library="params" type="teardown">
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20200809 22:16:42.904" endtime="20200809 22:16:44.984"></status>
+</kw>
+<status status="PASS" starttime="20200809 22:16:42.904" endtime="20200809 22:16:44.984"></status>
+</kw>
+<doc>Verifies if the scroll to top is accessible</doc>
+<tags>
+<tag>LandingPagescrollaction</tag>
+</tags>
+<status status="PASS" starttime="20200809 22:16:23.805" endtime="20200809 22:16:44.985" critical="yes"></status>
+</test>
+<test id="s1-t7" name="ContactAction">
+<kw name="Start" library="params" type="setup">
+<arguments>
+<arg>${BROWSER}</arg>
+<arg>${URL}</arg>
+</arguments>
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>about:blank</arg>
+<arg>${BROWSER}</arg>
+</arguments>
+<msg timestamp="20200809 22:16:44.989" level="INFO">Opening browser 'headlesschrome' to base url 'about:blank'.</msg>
+<status status="PASS" starttime="20200809 22:16:44.989" endtime="20200809 22:16:48.150"></status>
+</kw>
+<kw name="Set Window Size" library="SeleniumLibrary">
+<doc>Sets current windows size to given ``width`` and ``height``.</doc>
+<arguments>
+<arg>1920</arg>
+<arg>1640</arg>
+</arguments>
+<status status="PASS" starttime="20200809 22:16:48.150" endtime="20200809 22:16:50.265"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20200809 22:16:50.265" endtime="20200809 22:16:50.373"></status>
+</kw>
+<kw name="Go To" library="SeleniumLibrary">
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<arguments>
+<arg>${URL}</arg>
+</arguments>
+<msg timestamp="20200809 22:16:50.374" level="INFO">Opening url 'https://brainpool.ai/'</msg>
+<status status="PASS" starttime="20200809 22:16:50.373" endtime="20200809 22:17:04.566"></status>
+</kw>
+<status status="PASS" starttime="20200809 22:16:44.989" endtime="20200809 22:17:04.566"></status>
+</kw>
+<kw name="contactAction" library="LandingPage">
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` is visible.</doc>
+<arguments>
+<arg>id=component-2</arg>
+</arguments>
+<status status="PASS" starttime="20200809 22:17:04.569" endtime="20200809 22:17:05.218"></status>
+</kw>
+<kw name="Execute Javascript" library="SeleniumLibrary">
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<arguments>
+<arg>window.scrollTo(0,1000)</arg>
+</arguments>
+<msg timestamp="20200809 22:17:05.218" level="INFO">Executing JavaScript:
+window.scrollTo(0,1000)
+Without any arguments.</msg>
+<status status="PASS" starttime="20200809 22:17:05.218" endtime="20200809 22:17:05.227"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200809 22:17:06.229" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200809 22:17:05.227" endtime="20200809 22:17:06.229"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` is visible.</doc>
+<arguments>
+<arg>id=component-9</arg>
+</arguments>
+<status status="PASS" starttime="20200809 22:17:06.229" endtime="20200809 22:17:06.256"></status>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<doc>Clicks the button identified by ``locator``.</doc>
+<arguments>
+<arg>id=component-9</arg>
+</arguments>
+<msg timestamp="20200809 22:17:06.256" level="INFO">Clicking button 'id=component-9'.</msg>
+<status status="PASS" starttime="20200809 22:17:06.256" endtime="20200809 22:17:06.365"></status>
+</kw>
+<status status="PASS" starttime="20200809 22:17:04.568" endtime="20200809 22:17:06.365"></status>
+</kw>
+<kw name="Stop" library="params" type="teardown">
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20200809 22:17:06.368" endtime="20200809 22:17:08.448"></status>
+</kw>
+<status status="PASS" starttime="20200809 22:17:06.367" endtime="20200809 22:17:08.449"></status>
+</kw>
+<doc>Verifies if the contact us is accessible</doc>
+<tags>
+<tag>LandingPagecontactaction</tag>
+</tags>
+<status status="PASS" starttime="20200809 22:16:44.988" endtime="20200809 22:17:08.450" critical="yes"></status>
+</test>
+<test id="s1-t8" name="ContactForm">
+<kw name="Start" library="params" type="setup">
+<arguments>
+<arg>${BROWSER}</arg>
+<arg>${URL}</arg>
+</arguments>
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>about:blank</arg>
+<arg>${BROWSER}</arg>
+</arguments>
+<msg timestamp="20200809 22:17:08.454" level="INFO">Opening browser 'headlesschrome' to base url 'about:blank'.</msg>
+<status status="PASS" starttime="20200809 22:17:08.454" endtime="20200809 22:17:11.617"></status>
+</kw>
+<kw name="Set Window Size" library="SeleniumLibrary">
+<doc>Sets current windows size to given ``width`` and ``height``.</doc>
+<arguments>
+<arg>1920</arg>
+<arg>1640</arg>
+</arguments>
+<status status="PASS" starttime="20200809 22:17:11.619" endtime="20200809 22:17:13.731"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20200809 22:17:13.731" endtime="20200809 22:17:13.841"></status>
+</kw>
+<kw name="Go To" library="SeleniumLibrary">
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<arguments>
+<arg>${URL}</arg>
+</arguments>
+<msg timestamp="20200809 22:17:13.841" level="INFO">Opening url 'https://brainpool.ai/'</msg>
+<status status="PASS" starttime="20200809 22:17:13.841" endtime="20200809 22:17:18.855"></status>
+</kw>
+<status status="PASS" starttime="20200809 22:17:08.453" endtime="20200809 22:17:18.856"></status>
+</kw>
+<kw name="ContatUsForm" library="LandingPage">
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` is visible.</doc>
+<arguments>
+<arg>id=component-2</arg>
+</arguments>
+<status status="PASS" starttime="20200809 22:17:18.858" endtime="20200809 22:17:19.510"></status>
+</kw>
+<kw name="Execute Javascript" library="SeleniumLibrary">
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<arguments>
+<arg>window.scrollTo(0,800)</arg>
+</arguments>
+<msg timestamp="20200809 22:17:19.511" level="INFO">Executing JavaScript:
+window.scrollTo(0,800)
+Without any arguments.</msg>
+<status status="PASS" starttime="20200809 22:17:19.511" endtime="20200809 22:17:19.550"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>id=demo-name</arg>
+<arg>Hello World</arg>
+</arguments>
+<msg timestamp="20200809 22:17:19.550" level="INFO">Typing text 'Hello World' into text field 'id=demo-name'.</msg>
+<status status="PASS" starttime="20200809 22:17:19.550" endtime="20200809 22:17:19.808"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>id=demo-email</arg>
+<arg>HelloWorld@email.com</arg>
+</arguments>
+<msg timestamp="20200809 22:17:19.809" level="INFO">Typing text 'HelloWorld@email.com' into text field 'id=demo-email'.</msg>
+<status status="PASS" starttime="20200809 22:17:19.809" endtime="20200809 22:17:20.192"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>id=demo-Cname</arg>
+<arg>MysteryInc.</arg>
+</arguments>
+<msg timestamp="20200809 22:17:20.193" level="INFO">Typing text 'MysteryInc.' into text field 'id=demo-Cname'.</msg>
+<status status="PASS" starttime="20200809 22:17:20.192" endtime="20200809 22:17:20.454"></status>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<doc>Clicks the button identified by ``locator``.</doc>
+<arguments>
+<arg>id=contact-allpage</arg>
+</arguments>
+<msg timestamp="20200809 22:17:20.454" level="INFO">Clicking button 'id=contact-allpage'.</msg>
+<status status="PASS" starttime="20200809 22:17:20.454" endtime="20200809 22:17:20.638"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20200809 22:17:22.640" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200809 22:17:20.639" endtime="20200809 22:17:22.640"></status>
+</kw>
+<kw name="Page Should Contain" library="SeleniumLibrary">
+<doc>Verifies that current page contains ``text``.</doc>
+<arguments>
+<arg>Thank you, a member of our team will be in touch shortly.</arg>
+</arguments>
+<msg timestamp="20200809 22:17:22.661" level="INFO">Current page contains text 'Thank you, a member of our team will be in touch shortly.'.</msg>
+<status status="PASS" starttime="20200809 22:17:22.640" endtime="20200809 22:17:22.662"></status>
+</kw>
+<status status="PASS" starttime="20200809 22:17:18.858" endtime="20200809 22:17:22.662"></status>
+</kw>
+<kw name="Stop" library="params" type="teardown">
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20200809 22:17:22.663" endtime="20200809 22:17:24.740"></status>
+</kw>
+<status status="PASS" starttime="20200809 22:17:22.663" endtime="20200809 22:17:24.740"></status>
+</kw>
+<doc>Verifies if the contact form is accessible</doc>
+<tags>
+<tag>LandingPageform</tag>
+</tags>
+<status status="PASS" starttime="20200809 22:17:08.452" endtime="20200809 22:17:24.741" critical="yes"></status>
+</test>
+<test id="s1-t9" name="Contact Us accessibility">
+<kw name="Start" library="params" type="setup">
+<arguments>
+<arg>${BROWSER}</arg>
+<arg>${URL}</arg>
+</arguments>
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>about:blank</arg>
+<arg>${BROWSER}</arg>
+</arguments>
+<msg timestamp="20200809 22:17:24.748" level="INFO">Opening browser 'headlesschrome' to base url 'about:blank'.</msg>
+<status status="PASS" starttime="20200809 22:17:24.747" endtime="20200809 22:17:27.927"></status>
+</kw>
+<kw name="Set Window Size" library="SeleniumLibrary">
+<doc>Sets current windows size to given ``width`` and ``height``.</doc>
+<arguments>
+<arg>1920</arg>
+<arg>1640</arg>
+</arguments>
+<status status="PASS" starttime="20200809 22:17:27.927" endtime="20200809 22:17:30.044"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20200809 22:17:30.044" endtime="20200809 22:17:30.152"></status>
+</kw>
+<kw name="Go To" library="SeleniumLibrary">
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<arguments>
+<arg>${URL}</arg>
+</arguments>
+<msg timestamp="20200809 22:17:30.153" level="INFO">Opening url 'https://brainpool.ai/'</msg>
+<status status="PASS" starttime="20200809 22:17:30.152" endtime="20200809 22:17:34.484"></status>
+</kw>
+<status status="PASS" starttime="20200809 22:17:24.747" endtime="20200809 22:17:34.485"></status>
+</kw>
+<kw name="Initialization" library="ContactUs">
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` is visible.</doc>
+<arguments>
+<arg>xpath=//*[@id="home"]/nav/div[2]/ul/li[6]/a</arg>
+</arguments>
+<status status="PASS" starttime="20200809 22:17:34.487" endtime="20200809 22:17:34.546"></status>
+</kw>
+<kw name="Click Link" library="SeleniumLibrary">
+<doc>Clicks a link identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=//*[@id="home"]/nav/div[2]/ul/li[6]/a</arg>
+</arguments>
+<msg timestamp="20200809 22:17:34.546" level="INFO">Clicking link 'xpath=//*[@id="home"]/nav/div[2]/ul/li[6]/a'.</msg>
+<status status="PASS" starttime="20200809 22:17:34.546" endtime="20200809 22:17:37.535"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20200809 22:17:39.535" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200809 22:17:37.535" endtime="20200809 22:17:39.535"></status>
+</kw>
+<status status="PASS" starttime="20200809 22:17:34.486" endtime="20200809 22:17:39.535"></status>
+</kw>
+<kw name="Stop" library="params" type="teardown">
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20200809 22:17:39.537" endtime="20200809 22:17:41.637"></status>
+</kw>
+<status status="PASS" starttime="20200809 22:17:39.536" endtime="20200809 22:17:41.637"></status>
+</kw>
+<doc>Accessing contact us page</doc>
+<tags>
+<tag>ContactUsInitialization</tag>
+</tags>
+<status status="PASS" starttime="20200809 22:17:24.746" endtime="20200809 22:17:41.638" critical="yes"></status>
+</test>
+<test id="s1-t10" name="ContactUS Start Now Button">
+<kw name="Start" library="params" type="setup">
+<arguments>
+<arg>${BROWSER}</arg>
+<arg>${URL}</arg>
+</arguments>
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>about:blank</arg>
+<arg>${BROWSER}</arg>
+</arguments>
+<msg timestamp="20200809 22:17:41.645" level="INFO">Opening browser 'headlesschrome' to base url 'about:blank'.</msg>
+<status status="PASS" starttime="20200809 22:17:41.645" endtime="20200809 22:17:44.822"></status>
+</kw>
+<kw name="Set Window Size" library="SeleniumLibrary">
+<doc>Sets current windows size to given ``width`` and ``height``.</doc>
+<arguments>
+<arg>1920</arg>
+<arg>1640</arg>
+</arguments>
+<status status="PASS" starttime="20200809 22:17:44.823" endtime="20200809 22:17:46.941"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20200809 22:17:46.941" endtime="20200809 22:17:47.049"></status>
+</kw>
+<kw name="Go To" library="SeleniumLibrary">
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<arguments>
+<arg>${URL}</arg>
+</arguments>
+<msg timestamp="20200809 22:17:47.050" level="INFO">Opening url 'https://brainpool.ai/'</msg>
+<status status="PASS" starttime="20200809 22:17:47.050" endtime="20200809 22:17:53.691"></status>
+</kw>
+<status status="PASS" starttime="20200809 22:17:41.644" endtime="20200809 22:17:53.691"></status>
+</kw>
+<kw name="Start Now" library="ContactUs">
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` is visible.</doc>
+<arguments>
+<arg>xpath=//*[@id="home"]/nav/div[2]/ul/li[6]/a</arg>
+</arguments>
+<status status="PASS" starttime="20200809 22:17:53.693" endtime="20200809 22:17:53.752"></status>
+</kw>
+<kw name="Click Link" library="SeleniumLibrary">
+<doc>Clicks a link identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=//*[@id="home"]/nav/div[2]/ul/li[6]/a</arg>
+</arguments>
+<msg timestamp="20200809 22:17:53.752" level="INFO">Clicking link 'xpath=//*[@id="home"]/nav/div[2]/ul/li[6]/a'.</msg>
+<status status="PASS" starttime="20200809 22:17:53.752" endtime="20200809 22:17:57.005"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20200809 22:17:59.007" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200809 22:17:57.005" endtime="20200809 22:17:59.007"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` is visible.</doc>
+<arguments>
+<arg>id=component-2</arg>
+</arguments>
+<status status="PASS" starttime="20200809 22:17:59.007" endtime="20200809 22:17:59.040"></status>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<doc>Clicks the button identified by ``locator``.</doc>
+<arguments>
+<arg>id=component-2</arg>
+</arguments>
+<msg timestamp="20200809 22:17:59.041" level="INFO">Clicking button 'id=component-2'.</msg>
+<status status="PASS" starttime="20200809 22:17:59.040" endtime="20200809 22:17:59.137"></status>
+</kw>
+<status status="PASS" starttime="20200809 22:17:53.693" endtime="20200809 22:17:59.138"></status>
+</kw>
+<kw name="Stop" library="params" type="teardown">
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20200809 22:17:59.141" endtime="20200809 22:18:01.271"></status>
+</kw>
+<status status="PASS" starttime="20200809 22:17:59.140" endtime="20200809 22:18:01.271"></status>
+</kw>
+<doc>Verifies if the Start Now button is accessible</doc>
+<tags>
+<tag>ContactUsStart</tag>
+</tags>
+<status status="PASS" starttime="20200809 22:17:41.641" endtime="20200809 22:18:02.243" critical="yes"></status>
+</test>
+<test id="s1-t11" name="ContactUS form">
+<kw name="Start" library="params" type="setup">
+<arguments>
+<arg>${BROWSER}</arg>
+<arg>${URL}</arg>
+</arguments>
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>about:blank</arg>
+<arg>${BROWSER}</arg>
+</arguments>
+<msg timestamp="20200809 22:18:02.273" level="INFO">Opening browser 'headlesschrome' to base url 'about:blank'.</msg>
+<status status="PASS" starttime="20200809 22:18:02.273" endtime="20200809 22:18:06.703"></status>
+</kw>
+<kw name="Set Window Size" library="SeleniumLibrary">
+<doc>Sets current windows size to given ``width`` and ``height``.</doc>
+<arguments>
+<arg>1920</arg>
+<arg>1640</arg>
+</arguments>
+<status status="PASS" starttime="20200809 22:18:06.703" endtime="20200809 22:18:08.815"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20200809 22:18:08.815" endtime="20200809 22:18:08.924"></status>
+</kw>
+<kw name="Go To" library="SeleniumLibrary">
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<arguments>
+<arg>${URL}</arg>
+</arguments>
+<msg timestamp="20200809 22:18:08.924" level="INFO">Opening url 'https://brainpool.ai/'</msg>
+<status status="PASS" starttime="20200809 22:18:08.924" endtime="20200809 22:18:13.730"></status>
+</kw>
+<status status="PASS" starttime="20200809 22:18:02.271" endtime="20200809 22:18:13.731"></status>
+</kw>
+<kw name="ContactForm" library="ContactUs">
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` is visible.</doc>
+<arguments>
+<arg>xpath=//*[@id="home"]/nav/div[2]/ul/li[6]/a</arg>
+</arguments>
+<status status="PASS" starttime="20200809 22:18:13.733" endtime="20200809 22:18:13.789"></status>
+</kw>
+<kw name="Click Link" library="SeleniumLibrary">
+<doc>Clicks a link identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=//*[@id="home"]/nav/div[2]/ul/li[6]/a</arg>
+</arguments>
+<msg timestamp="20200809 22:18:13.789" level="INFO">Clicking link 'xpath=//*[@id="home"]/nav/div[2]/ul/li[6]/a'.</msg>
+<status status="PASS" starttime="20200809 22:18:13.789" endtime="20200809 22:18:16.526"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20200809 22:18:18.527" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200809 22:18:16.526" endtime="20200809 22:18:18.527"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` is visible.</doc>
+<arguments>
+<arg>id=component-2</arg>
+</arguments>
+<status status="PASS" starttime="20200809 22:18:18.527" endtime="20200809 22:18:18.560"></status>
+</kw>
+<kw name="Execute Javascript" library="SeleniumLibrary">
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<arguments>
+<arg>window.scrollTo(0,800)</arg>
+</arguments>
+<msg timestamp="20200809 22:18:18.560" level="INFO">Executing JavaScript:
+window.scrollTo(0,800)
+Without any arguments.</msg>
+<status status="PASS" starttime="20200809 22:18:18.560" endtime="20200809 22:18:18.567"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>id=contact-name</arg>
+<arg>Hello World</arg>
+</arguments>
+<msg timestamp="20200809 22:18:18.567" level="INFO">Typing text 'Hello World' into text field 'id=contact-name'.</msg>
+<status status="PASS" starttime="20200809 22:18:18.567" endtime="20200809 22:18:18.694"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>id=contact-email</arg>
+<arg>HelloWorld@email.com</arg>
+</arguments>
+<msg timestamp="20200809 22:18:18.695" level="INFO">Typing text 'HelloWorld@email.com' into text field 'id=contact-email'.</msg>
+<status status="PASS" starttime="20200809 22:18:18.695" endtime="20200809 22:18:18.832"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>id=contact-company</arg>
+<arg>MysteryInc.</arg>
+</arguments>
+<msg timestamp="20200809 22:18:18.833" level="INFO">Typing text 'MysteryInc.' into text field 'id=contact-company'.</msg>
+<status status="PASS" starttime="20200809 22:18:18.832" endtime="20200809 22:18:18.946"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>id=contact-phone</arg>
+<arg>9845926100</arg>
+</arguments>
+<msg timestamp="20200809 22:18:18.947" level="INFO">Typing text '9845926100' into text field 'id=contact-phone'.</msg>
+<status status="PASS" starttime="20200809 22:18:18.947" endtime="20200809 22:18:19.062"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>id=contact-message</arg>
+<arg>WhoAmI</arg>
+</arguments>
+<msg timestamp="20200809 22:18:19.063" level="INFO">Typing text 'WhoAmI' into text field 'id=contact-message'.</msg>
+<status status="PASS" starttime="20200809 22:18:19.062" endtime="20200809 22:18:19.168"></status>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<doc>Clicks the button identified by ``locator``.</doc>
+<arguments>
+<arg>id=contact-button</arg>
+</arguments>
+<msg timestamp="20200809 22:18:19.169" level="INFO">Clicking button 'id=contact-button'.</msg>
+<status status="PASS" starttime="20200809 22:18:19.169" endtime="20200809 22:18:19.275"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20200809 22:18:21.277" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200809 22:18:19.275" endtime="20200809 22:18:21.277"></status>
+</kw>
+<kw name="Page Should Contain" library="SeleniumLibrary">
+<doc>Verifies that current page contains ``text``.</doc>
+<arguments>
+<arg>Thank you, a member of our team will be in touch shortly.</arg>
+</arguments>
+<msg timestamp="20200809 22:18:21.300" level="INFO">Current page contains text 'Thank you, a member of our team will be in touch shortly.'.</msg>
+<status status="PASS" starttime="20200809 22:18:21.277" endtime="20200809 22:18:21.300"></status>
+</kw>
+<status status="PASS" starttime="20200809 22:18:13.732" endtime="20200809 22:18:21.300"></status>
+</kw>
+<kw name="Stop" library="params" type="teardown">
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20200809 22:18:21.301" endtime="20200809 22:18:23.419"></status>
+</kw>
+<status status="PASS" starttime="20200809 22:18:21.301" endtime="20200809 22:18:23.419"></status>
+</kw>
+<doc>Verifies if the contact form is accessible</doc>
+<tags>
+<tag>ContactUsForm</tag>
+</tags>
+<status status="PASS" starttime="20200809 22:18:02.270" endtime="20200809 22:18:23.420" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20200809 22:14:36.792" endtime="20200809 22:18:23.423"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="11" fail="0">Critical Tests</stat>
+<stat pass="11" fail="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0">ContactUsForm</stat>
+<stat pass="1" fail="0">ContactUsInitialization</stat>
+<stat pass="1" fail="0">ContactUsStart</stat>
+<stat pass="1" fail="0">LandingPagecontactaction</stat>
+<stat pass="1" fail="0">LandingPageExplore1</stat>
+<stat pass="1" fail="0">LandingPageExplore2</stat>
+<stat pass="1" fail="0">LandingPageform</stat>
+<stat pass="1" fail="0">LandingPageLearnMore</stat>
+<stat pass="1" fail="0">LandingPagescrollaction</stat>
+<stat pass="1" fail="0">LandingPageStart</stat>
+<stat pass="1" fail="0">Smoke</stat>
+</tag>
+<suite>
+<stat pass="11" fail="0" id="s1" name="Brainpool">Brainpool</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
