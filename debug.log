@@ -126,3 +126,299 @@
 [0809/220122.510:ERROR:prune_crash_reports.cc(35)] PruneCrashReportDatabase: Failed to get pending reports
 [0809/220141.416:ERROR:prune_crash_reports.cc(35)] PruneCrashReportDatabase: Failed to get pending reports
 [0809/220159.331:ERROR:prune_crash_reports.cc(35)] PruneCrashReportDatabase: Failed to get pending reports
+[0810/031516.413:ERROR:process_reader_win.cc(127)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0810/031516.445:ERROR:exception_snapshot_win.cc(99)] thread ID 13060 not found in process
+[0810/031516.603:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir24452_678828252\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031516.603:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir24452_678828252\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031516.603:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir24452_678828252\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031516.603:ERROR:file_io_win.cc(170)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir24452_678828252\Crashpad\reports\0c64c169-3d6a-41a8-baac-4aa8390bbf88.dmp: The system cannot find the path specified. (0x3)
+[0810/031516.603:ERROR:crash_report_exception_handler.cc(120)] PrepareNewCrashReport failed
+[0810/031516.663:ERROR:process_reader_win.cc(127)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0810/031516.664:ERROR:exception_snapshot_win.cc(99)] thread ID 14564 not found in process
+[0810/031516.664:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir25284_1380053754\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031516.664:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir25284_1380053754\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031516.664:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir25284_1380053754\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031516.664:ERROR:file_io_win.cc(170)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir25284_1380053754\Crashpad\reports\7c50913b-03e9-4b08-b0f2-82b52cf8a313.dmp: The system cannot find the path specified. (0x3)
+[0810/031516.664:ERROR:crash_report_exception_handler.cc(120)] PrepareNewCrashReport failed
+[0810/031516.715:ERROR:process_reader_win.cc(127)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0810/031516.715:ERROR:exception_snapshot_win.cc(99)] thread ID 13400 not found in process
+[0810/031516.732:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir18280_1812689767\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031516.732:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir18280_1812689767\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031516.732:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir18280_1812689767\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031516.732:ERROR:file_io_win.cc(170)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir18280_1812689767\Crashpad\reports\a1aa0ea8-bdfe-400d-a852-ed3e3d0108bf.dmp: The system cannot find the path specified. (0x3)
+[0810/031516.732:ERROR:crash_report_exception_handler.cc(120)] PrepareNewCrashReport failed
+[0810/031516.771:ERROR:process_reader_win.cc(127)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0810/031516.786:ERROR:exception_snapshot_win.cc(99)] thread ID 14584 not found in process
+[0810/031516.786:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir18268_1215647367\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031516.786:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir18268_1215647367\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031516.786:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir18268_1215647367\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031516.786:ERROR:file_io_win.cc(170)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir18268_1215647367\Crashpad\reports\effb5cca-146a-45d3-8ea0-2e7d7f6ce62f.dmp: The system cannot find the path specified. (0x3)
+[0810/031516.786:ERROR:crash_report_exception_handler.cc(120)] PrepareNewCrashReport failed
+[0810/031516.844:ERROR:process_reader_win.cc(127)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0810/031516.845:ERROR:exception_snapshot_win.cc(99)] thread ID 1780 not found in process
+[0810/031516.855:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir23396_19939666\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031516.855:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir23396_19939666\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031516.855:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir23396_19939666\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031516.855:ERROR:file_io_win.cc(170)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir23396_19939666\Crashpad\reports\5bda2409-a4dc-4e51-893f-e7c37eb64c43.dmp: The system cannot find the path specified. (0x3)
+[0810/031516.855:ERROR:crash_report_exception_handler.cc(120)] PrepareNewCrashReport failed
+[0810/031516.916:ERROR:process_reader_win.cc(127)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0810/031516.917:ERROR:exception_snapshot_win.cc(99)] thread ID 20092 not found in process
+[0810/031516.930:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir14752_40118642\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031516.930:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir14752_40118642\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031516.930:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir14752_40118642\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031516.930:ERROR:file_io_win.cc(170)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir14752_40118642\Crashpad\reports\ecf1205f-fced-4b6b-8d14-1d98a7595c35.dmp: The system cannot find the path specified. (0x3)
+[0810/031516.930:ERROR:crash_report_exception_handler.cc(120)] PrepareNewCrashReport failed
+[0810/031516.969:ERROR:process_reader_win.cc(127)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0810/031516.969:ERROR:exception_snapshot_win.cc(99)] thread ID 17732 not found in process
+[0810/031516.986:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir20200_1066186851\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031516.986:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir20200_1066186851\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031516.986:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir20200_1066186851\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031516.986:ERROR:file_io_win.cc(170)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir20200_1066186851\Crashpad\reports\e77707be-4774-4ee9-8af2-764f8fbf6b6a.dmp: The system cannot find the path specified. (0x3)
+[0810/031516.986:ERROR:crash_report_exception_handler.cc(120)] PrepareNewCrashReport failed
+[0810/031517.026:ERROR:process_reader_win.cc(127)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0810/031517.026:ERROR:exception_snapshot_win.cc(99)] thread ID 25092 not found in process
+[0810/031517.042:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir4000_1480583531\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031517.042:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir4000_1480583531\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031517.042:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir4000_1480583531\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031517.042:ERROR:file_io_win.cc(170)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir4000_1480583531\Crashpad\reports\0ac22aee-ce53-4050-aa52-4b2fe40cf3f5.dmp: The system cannot find the path specified. (0x3)
+[0810/031517.042:ERROR:crash_report_exception_handler.cc(120)] PrepareNewCrashReport failed
+[0810/031517.099:ERROR:process_reader_win.cc(127)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0810/031517.121:ERROR:exception_snapshot_win.cc(99)] thread ID 26920 not found in process
+[0810/031517.169:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir25256_535680897\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031517.169:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir25256_535680897\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031517.169:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir25256_535680897\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031517.185:ERROR:file_io_win.cc(170)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir25256_535680897\Crashpad\reports\07b188b4-a41d-4394-aedd-7cbb15d87bab.dmp: The system cannot find the path specified. (0x3)
+[0810/031517.185:ERROR:crash_report_exception_handler.cc(120)] PrepareNewCrashReport failed
+[0810/031517.270:ERROR:process_reader_win.cc(127)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0810/031517.270:ERROR:exception_snapshot_win.cc(99)] thread ID 13480 not found in process
+[0810/031517.315:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir24004_614091877\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031517.315:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir24004_614091877\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031517.315:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir24004_614091877\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031517.331:ERROR:file_io_win.cc(170)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir24004_614091877\Crashpad\reports\3a7d245b-7a00-45cf-84c0-c3f82b2cf352.dmp: The system cannot find the path specified. (0x3)
+[0810/031517.331:ERROR:crash_report_exception_handler.cc(120)] PrepareNewCrashReport failed
+[0810/031517.519:ERROR:process_reader_win.cc(127)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0810/031517.534:ERROR:exception_snapshot_win.cc(99)] thread ID 22684 not found in process
+[0810/031517.550:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir22312_226859798\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031517.550:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir22312_226859798\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031517.550:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir22312_226859798\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031517.550:ERROR:file_io_win.cc(170)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir22312_226859798\Crashpad\reports\95db59a8-270b-4334-92ac-2b57b11fd5d3.dmp: The system cannot find the path specified. (0x3)
+[0810/031517.550:ERROR:crash_report_exception_handler.cc(120)] PrepareNewCrashReport failed
+[0810/031517.593:ERROR:process_reader_win.cc(127)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0810/031517.606:ERROR:exception_snapshot_win.cc(99)] thread ID 27464 not found in process
+[0810/031517.607:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir21244_663541330\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031517.607:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir21244_663541330\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031517.607:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir21244_663541330\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031517.607:ERROR:file_io_win.cc(170)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir21244_663541330\Crashpad\reports\c7c323d1-410e-4533-abfa-d3399246e8c1.dmp: The system cannot find the path specified. (0x3)
+[0810/031517.607:ERROR:crash_report_exception_handler.cc(120)] PrepareNewCrashReport failed
+[0810/031517.667:ERROR:process_reader_win.cc(127)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0810/031517.667:ERROR:exception_snapshot_win.cc(99)] thread ID 18056 not found in process
+[0810/031517.682:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir6400_517954435\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031517.682:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir6400_517954435\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031517.682:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir6400_517954435\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031517.682:ERROR:file_io_win.cc(170)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir6400_517954435\Crashpad\reports\8d17e208-a4c7-4655-9074-b26f09ac5c04.dmp: The system cannot find the path specified. (0x3)
+[0810/031517.682:ERROR:crash_report_exception_handler.cc(120)] PrepareNewCrashReport failed
+[0810/031517.848:ERROR:process_reader_win.cc(127)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0810/031517.848:ERROR:exception_snapshot_win.cc(99)] thread ID 4832 not found in process
+[0810/031517.896:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir23152_262464581\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031517.896:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir23152_262464581\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031517.896:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir23152_262464581\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031517.896:ERROR:file_io_win.cc(170)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir23152_262464581\Crashpad\reports\e27449d8-919b-4678-b844-0651114592d4.dmp: The system cannot find the path specified. (0x3)
+[0810/031517.896:ERROR:crash_report_exception_handler.cc(120)] PrepareNewCrashReport failed
+[0810/031518.020:ERROR:process_reader_win.cc(127)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0810/031518.020:ERROR:exception_snapshot_win.cc(99)] thread ID 23652 not found in process
+[0810/031518.036:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir10660_1004342814\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031518.036:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir10660_1004342814\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031518.036:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir10660_1004342814\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031518.036:ERROR:file_io_win.cc(170)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir10660_1004342814\Crashpad\reports\649e95ee-e2e3-465e-9b21-21e2a0a5f455.dmp: The system cannot find the path specified. (0x3)
+[0810/031518.036:ERROR:crash_report_exception_handler.cc(120)] PrepareNewCrashReport failed
+[0810/031518.164:ERROR:process_reader_win.cc(127)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0810/031518.164:ERROR:exception_snapshot_win.cc(99)] thread ID 15760 not found in process
+[0810/031518.184:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir17480_1454307094\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031518.184:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir17480_1454307094\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031518.184:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir17480_1454307094\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031518.184:ERROR:file_io_win.cc(170)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir17480_1454307094\Crashpad\reports\6eb3170c-df9e-45d4-95bc-bf4bffd075e8.dmp: The system cannot find the path specified. (0x3)
+[0810/031518.184:ERROR:crash_report_exception_handler.cc(120)] PrepareNewCrashReport failed
+[0810/031518.241:ERROR:process_reader_win.cc(127)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0810/031518.241:ERROR:exception_snapshot_win.cc(99)] thread ID 2736 not found in process
+[0810/031518.257:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir10396_1497877908\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031518.257:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir10396_1497877908\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031518.257:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir10396_1497877908\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031518.257:ERROR:file_io_win.cc(170)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir10396_1497877908\Crashpad\reports\820cca34-72cd-499c-ba93-2cc204db41b5.dmp: The system cannot find the path specified. (0x3)
+[0810/031518.257:ERROR:crash_report_exception_handler.cc(120)] PrepareNewCrashReport failed
+[0810/031518.377:ERROR:process_reader_win.cc(127)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0810/031518.393:ERROR:exception_snapshot_win.cc(99)] thread ID 12376 not found in process
+[0810/031518.393:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir18096_2009359809\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031518.393:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir18096_2009359809\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031518.393:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir18096_2009359809\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031518.393:ERROR:file_io_win.cc(170)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir18096_2009359809\Crashpad\reports\9ae5f370-79a0-4db8-96cb-590199a0ebdc.dmp: The system cannot find the path specified. (0x3)
+[0810/031518.393:ERROR:crash_report_exception_handler.cc(120)] PrepareNewCrashReport failed
+[0810/031518.494:ERROR:process_reader_win.cc(127)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0810/031518.509:ERROR:exception_snapshot_win.cc(99)] thread ID 25864 not found in process
+[0810/031518.526:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir14556_1158107938\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031518.526:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir14556_1158107938\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031518.526:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir14556_1158107938\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031518.526:ERROR:file_io_win.cc(170)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir14556_1158107938\Crashpad\reports\dfc62ef4-9343-4ff5-b407-7c2641b3c69d.dmp: The system cannot find the path specified. (0x3)
+[0810/031518.526:ERROR:crash_report_exception_handler.cc(120)] PrepareNewCrashReport failed
+[0810/031518.608:ERROR:process_reader_win.cc(127)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0810/031518.608:ERROR:exception_snapshot_win.cc(99)] thread ID 27784 not found in process
+[0810/031518.625:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir22008_153235277\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031518.625:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir22008_153235277\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031518.625:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir22008_153235277\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031518.625:ERROR:file_io_win.cc(170)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir22008_153235277\Crashpad\reports\3d099bff-da5d-47b2-ada4-4de2d7874462.dmp: The system cannot find the path specified. (0x3)
+[0810/031518.625:ERROR:crash_report_exception_handler.cc(120)] PrepareNewCrashReport failed
+[0810/031518.672:ERROR:process_reader_win.cc(127)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0810/031518.672:ERROR:exception_snapshot_win.cc(99)] thread ID 25140 not found in process
+[0810/031518.672:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir17720_814754788\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031518.672:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir17720_814754788\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031518.672:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir17720_814754788\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031518.672:ERROR:file_io_win.cc(170)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir17720_814754788\Crashpad\reports\213ef9b8-5bff-4cd6-a92d-f78022cb5c79.dmp: The system cannot find the path specified. (0x3)
+[0810/031518.672:ERROR:crash_report_exception_handler.cc(120)] PrepareNewCrashReport failed
+[0810/031518.726:ERROR:process_reader_win.cc(127)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0810/031518.726:ERROR:exception_snapshot_win.cc(99)] thread ID 11032 not found in process
+[0810/031518.742:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir5044_1400597032\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031518.742:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir5044_1400597032\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031518.742:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir5044_1400597032\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031518.742:ERROR:file_io_win.cc(170)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir5044_1400597032\Crashpad\reports\201ce36a-8810-4948-9ac8-86f4e65c4906.dmp: The system cannot find the path specified. (0x3)
+[0810/031518.742:ERROR:crash_report_exception_handler.cc(120)] PrepareNewCrashReport failed
+[0810/031518.842:ERROR:process_reader_win.cc(127)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0810/031518.842:ERROR:exception_snapshot_win.cc(99)] thread ID 13260 not found in process
+[0810/031518.858:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir872_566093458\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031518.858:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir872_566093458\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031518.858:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir872_566093458\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031518.858:ERROR:file_io_win.cc(170)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir872_566093458\Crashpad\reports\78ce2e8b-e3d8-4260-a3ea-36f5e2831608.dmp: The system cannot find the path specified. (0x3)
+[0810/031518.858:ERROR:crash_report_exception_handler.cc(120)] PrepareNewCrashReport failed
+[0810/031518.912:ERROR:process_reader_win.cc(127)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0810/031518.912:ERROR:exception_snapshot_win.cc(99)] thread ID 27812 not found in process
+[0810/031518.912:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir23544_1927636116\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031518.912:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir23544_1927636116\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031518.912:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir23544_1927636116\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031518.912:ERROR:file_io_win.cc(170)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir23544_1927636116\Crashpad\reports\15408c22-c8a5-4e75-b2e9-0eda697c9e3a.dmp: The system cannot find the path specified. (0x3)
+[0810/031518.912:ERROR:crash_report_exception_handler.cc(120)] PrepareNewCrashReport failed
+[0810/031518.977:ERROR:process_reader_win.cc(127)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0810/031518.977:ERROR:exception_snapshot_win.cc(99)] thread ID 22284 not found in process
+[0810/031518.993:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir19972_761623548\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031518.993:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir19972_761623548\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031518.993:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir19972_761623548\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031518.993:ERROR:file_io_win.cc(170)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir19972_761623548\Crashpad\reports\90ee820c-34bd-4052-a238-7ca0542bedef.dmp: The system cannot find the path specified. (0x3)
+[0810/031518.993:ERROR:crash_report_exception_handler.cc(120)] PrepareNewCrashReport failed
+[0810/031519.052:ERROR:process_reader_win.cc(155)] SuspendThread: Access is denied. (0x5)
+[0810/031519.052:ERROR:process_reader_win.cc(155)] SuspendThread: Access is denied. (0x5)
+[0810/031519.052:ERROR:process_reader_win.cc(155)] SuspendThread: Access is denied. (0x5)
+[0810/031519.052:ERROR:process_reader_win.cc(155)] SuspendThread: Access is denied. (0x5)
+[0810/031519.052:ERROR:process_reader_win.cc(127)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0810/031519.052:ERROR:exception_snapshot_win.cc(99)] thread ID 27840 not found in process
+[0810/031519.068:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir20748_213573445\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031519.068:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir20748_213573445\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031519.068:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir20748_213573445\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031519.068:ERROR:file_io_win.cc(170)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir20748_213573445\Crashpad\reports\0f6645ec-9f19-4bc4-95b3-6cc8ec37c854.dmp: The system cannot find the path specified. (0x3)
+[0810/031519.068:ERROR:crash_report_exception_handler.cc(120)] PrepareNewCrashReport failed
+[0810/031519.124:ERROR:process_reader_win.cc(155)] SuspendThread: Access is denied. (0x5)
+[0810/031519.125:ERROR:process_reader_win.cc(155)] SuspendThread: Access is denied. (0x5)
+[0810/031519.125:ERROR:process_reader_win.cc(155)] SuspendThread: Access is denied. (0x5)
+[0810/031519.125:ERROR:process_reader_win.cc(155)] SuspendThread: Access is denied. (0x5)
+[0810/031519.125:ERROR:process_reader_win.cc(155)] SuspendThread: Access is denied. (0x5)
+[0810/031519.125:ERROR:process_reader_win.cc(127)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0810/031519.126:ERROR:exception_snapshot_win.cc(99)] thread ID 26724 not found in process
+[0810/031519.138:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir22312_658911778\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031519.138:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir22312_658911778\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031519.138:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir22312_658911778\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031519.138:ERROR:file_io_win.cc(170)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir22312_658911778\Crashpad\reports\92b83821-d3f1-490b-b84a-8fc780e39a22.dmp: The system cannot find the path specified. (0x3)
+[0810/031519.138:ERROR:crash_report_exception_handler.cc(120)] PrepareNewCrashReport failed
+[0810/031519.225:ERROR:process_reader_win.cc(127)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0810/031519.225:ERROR:exception_snapshot_win.cc(99)] thread ID 20636 not found in process
+[0810/031519.293:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir18560_1354519389\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031519.294:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir18560_1354519389\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031519.295:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir18560_1354519389\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031519.295:ERROR:file_io_win.cc(170)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir18560_1354519389\Crashpad\reports\e80e5069-faa7-4deb-bd91-b6d77e8c29fb.dmp: The system cannot find the path specified. (0x3)
+[0810/031519.295:ERROR:crash_report_exception_handler.cc(120)] PrepareNewCrashReport failed
+[0810/031519.402:ERROR:process_reader_win.cc(127)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0810/031519.402:ERROR:exception_snapshot_win.cc(99)] thread ID 6208 not found in process
+[0810/031519.415:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir7924_1195210935\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031519.416:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir7924_1195210935\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031519.416:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir7924_1195210935\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031519.416:ERROR:file_io_win.cc(170)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir7924_1195210935\Crashpad\reports\7c97cc35-70ec-4e72-a033-6fb10311cedd.dmp: The system cannot find the path specified. (0x3)
+[0810/031519.416:ERROR:crash_report_exception_handler.cc(120)] PrepareNewCrashReport failed
+[0810/031519.508:ERROR:process_reader_win.cc(127)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0810/031519.509:ERROR:exception_snapshot_win.cc(99)] thread ID 28504 not found in process
+[0810/031519.521:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir20576_468062358\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031519.522:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir20576_468062358\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031519.522:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir20576_468062358\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031519.522:ERROR:file_io_win.cc(170)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir20576_468062358\Crashpad\reports\7ee96fc3-e172-40f8-9047-3f30bf46d872.dmp: The system cannot find the path specified. (0x3)
+[0810/031519.522:ERROR:crash_report_exception_handler.cc(120)] PrepareNewCrashReport failed
+[0810/031519.624:ERROR:process_reader_win.cc(127)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0810/031519.625:ERROR:exception_snapshot_win.cc(99)] thread ID 4436 not found in process
+[0810/031519.637:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir8248_660519221\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031519.637:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir8248_660519221\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031519.637:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir8248_660519221\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031519.638:ERROR:file_io_win.cc(170)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir8248_660519221\Crashpad\reports\2cae8fe0-ecb0-4a8e-9f3c-c4434255a8dd.dmp: The system cannot find the path specified. (0x3)
+[0810/031519.638:ERROR:crash_report_exception_handler.cc(120)] PrepareNewCrashReport failed
+[0810/031519.717:ERROR:process_reader_win.cc(127)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0810/031519.717:ERROR:exception_snapshot_win.cc(99)] thread ID 24780 not found in process
+[0810/031519.736:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir2532_1468343599\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031519.736:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir2532_1468343599\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031519.736:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir2532_1468343599\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031519.739:ERROR:file_io_win.cc(170)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir2532_1468343599\Crashpad\reports\8b1b918a-9e26-473f-b618-11ebf2ed0279.dmp: The system cannot find the path specified. (0x3)
+[0810/031519.739:ERROR:crash_report_exception_handler.cc(120)] PrepareNewCrashReport failed
+[0810/031519.807:ERROR:process_reader_win.cc(127)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0810/031519.820:ERROR:exception_snapshot_win.cc(99)] thread ID 20200 not found in process
+[0810/031519.836:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir11984_31410270\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031519.836:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir11984_31410270\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031519.836:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir11984_31410270\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031519.836:ERROR:file_io_win.cc(170)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir11984_31410270\Crashpad\reports\4e129a7b-747c-48cf-8bbd-1aa4cea8fb82.dmp: The system cannot find the path specified. (0x3)
+[0810/031519.836:ERROR:crash_report_exception_handler.cc(120)] PrepareNewCrashReport failed
+[0810/031519.910:ERROR:process_reader_win.cc(127)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0810/031519.910:ERROR:exception_snapshot_win.cc(99)] thread ID 19300 not found in process
+[0810/031519.922:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir20896_652522484\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031519.922:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir20896_652522484\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031519.922:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir20896_652522484\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031519.922:ERROR:file_io_win.cc(170)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir20896_652522484\Crashpad\reports\6d9feab1-41c7-4e16-9b84-35e93367d801.dmp: The system cannot find the path specified. (0x3)
+[0810/031519.922:ERROR:crash_report_exception_handler.cc(120)] PrepareNewCrashReport failed
+[0810/031519.974:ERROR:process_reader_win.cc(127)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0810/031519.975:ERROR:exception_snapshot_win.cc(99)] thread ID 25980 not found in process
+[0810/031519.982:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir17224_1121633389\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031519.987:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir17224_1121633389\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031519.987:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir17224_1121633389\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031519.988:ERROR:file_io_win.cc(170)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir17224_1121633389\Crashpad\reports\ffa5a990-8d1e-4002-8d91-284f70723b80.dmp: The system cannot find the path specified. (0x3)
+[0810/031519.988:ERROR:crash_report_exception_handler.cc(120)] PrepareNewCrashReport failed
+[0810/031520.055:ERROR:process_reader_win.cc(127)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0810/031520.055:ERROR:exception_snapshot_win.cc(99)] thread ID 7840 not found in process
+[0810/031520.074:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir23400_1804592036\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031520.074:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir23400_1804592036\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031520.074:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir23400_1804592036\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031520.074:ERROR:file_io_win.cc(170)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir23400_1804592036\Crashpad\reports\82ca873b-7a4f-46d0-a73e-64524e989981.dmp: The system cannot find the path specified. (0x3)
+[0810/031520.074:ERROR:crash_report_exception_handler.cc(120)] PrepareNewCrashReport failed
+[0810/031520.109:ERROR:process_reader_win.cc(127)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0810/031520.109:ERROR:exception_snapshot_win.cc(99)] thread ID 22044 not found in process
+[0810/031520.134:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir21932_499488343\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031520.134:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir21932_499488343\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031520.134:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir21932_499488343\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031520.134:ERROR:file_io_win.cc(170)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir21932_499488343\Crashpad\reports\759bdd04-079a-4dca-90c9-abc569d3e93d.dmp: The system cannot find the path specified. (0x3)
+[0810/031520.134:ERROR:crash_report_exception_handler.cc(120)] PrepareNewCrashReport failed
+[0810/031520.190:ERROR:process_reader_win.cc(127)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0810/031520.190:ERROR:exception_snapshot_win.cc(99)] thread ID 25372 not found in process
+[0810/031520.206:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir19732_298606246\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031520.206:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir19732_298606246\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031520.214:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir19732_298606246\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031520.214:ERROR:file_io_win.cc(170)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir19732_298606246\Crashpad\reports\6c197615-e6b1-41de-a1e6-41a48b1c9d43.dmp: The system cannot find the path specified. (0x3)
+[0810/031520.214:ERROR:crash_report_exception_handler.cc(120)] PrepareNewCrashReport failed
+[0810/031520.254:ERROR:process_reader_win.cc(127)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0810/031520.254:ERROR:exception_snapshot_win.cc(99)] thread ID 14160 not found in process
+[0810/031520.272:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir6520_409884759\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031520.272:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir6520_409884759\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031520.272:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir6520_409884759\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031520.272:ERROR:file_io_win.cc(170)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir6520_409884759\Crashpad\reports\7359b595-377c-4a82-90e2-db60d5d38fa3.dmp: The system cannot find the path specified. (0x3)
+[0810/031520.272:ERROR:crash_report_exception_handler.cc(120)] PrepareNewCrashReport failed
+[0810/031520.295:ERROR:process_reader_win.cc(127)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0810/031520.295:ERROR:exception_snapshot_win.cc(99)] thread ID 25700 not found in process
+[0810/031520.315:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir11148_1094908914\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031520.315:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir11148_1094908914\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031520.315:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir11148_1094908914\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031520.315:ERROR:file_io_win.cc(170)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir11148_1094908914\Crashpad\reports\4a5707fa-3e68-4fac-b21f-923e42dd3678.dmp: The system cannot find the path specified. (0x3)
+[0810/031520.315:ERROR:crash_report_exception_handler.cc(120)] PrepareNewCrashReport failed
+[0810/031520.337:ERROR:process_reader_win.cc(127)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0810/031520.337:ERROR:exception_snapshot_win.cc(99)] thread ID 4808 not found in process
+[0810/031520.356:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir4936_1963353116\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031520.356:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir4936_1963353116\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031520.356:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir4936_1963353116\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0810/031520.356:ERROR:file_io_win.cc(170)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir4936_1963353116\Crashpad\reports\40f9fc22-24e6-4eac-86bc-5d055409ad5d.dmp: The system cannot find the path specified. (0x3)
+[0810/031520.356:ERROR:crash_report_exception_handler.cc(120)] PrepareNewCrashReport failed
