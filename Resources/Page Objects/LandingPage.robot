@@ -8,7 +8,7 @@ Resource    ../params.robot
 
 Start Now
     Intialization
-    click button    id=component-2
+    Buttons    2
     sleep    5s
     select frame    xpath=/html/body/iframe[1]
     wait until page contains    Achieve Your AI Objectives
@@ -87,19 +87,19 @@ BlogPost3
 
 Learn More
     Intialization
-    click button    id=component-22
+    Buttons    22
 
 Explore1
     Intialization
     ScrollDown    0    1000
     sleep    1s
-    click button    id=component-21
+    Buttons    21
 
 Explore2
     Intialization
     ScrollDown    0    1200
     sleep    1s
-    click button    id=component-aib
+    Buttons    aib
 
 ScrollToTop
     Intialization
@@ -114,7 +114,7 @@ contactAction
     ScrollDown    0    1000
     sleep    1s
     wait until element is visible    id=component-9
-    click button    id=component-9
+    Buttons    9
 
 ContatUsForm
     Intialization

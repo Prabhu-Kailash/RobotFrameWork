@@ -25,6 +25,14 @@ Blogs
     [Arguments]     ${POS}
     execute javascript    document.querySelectorAll(".card-img-top")[${POS}].click()
 
+Buttons
+    [Arguments]    ${ELEMENT}
+    click button    id=component-${ELEMENT}
+
+LinkTags
+    [Arguments]    ${POS}
+    execute javascript    document.querySelectorAll("a")[${POS}].click()
+
 ScrollDown
     [Arguments]    ${X}    ${Y}
     execute javascript    window.scrollTo(${X},${Y})
@@ -33,5 +41,5 @@ Stop
     close all browsers
 
 Intialization
-    wait until element is visible    id=component-2
+    wait until element is visible    id=component-2    10s
 

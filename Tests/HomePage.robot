@@ -1,7 +1,5 @@
 *** Settings ***
-Resource    ../Resources/params.robot
 Resource    ../Resources/Page Objects/LandingPage.robot
-Resource    ../Resources/Page Objects/ContactUs.robot
 Test Setup    Start    ${BROWSER}    ${URL}
 Test Teardown    Stop
 
@@ -131,18 +129,3 @@ ContactForm
     [Documentation]  Verifies if the contact form is accessible
     [Tags]  LandingPageform
     LandingPage.ContatUsForm
-
-Contact Us accessibility
-    [Documentation]  Accessing contact us page
-    [Tags]  ContactUsInitialization
-    ContactUs.ContactInitialization
-
-ContactUS Start Now Button
-    [Documentation]  Verifies if the Start Now button is accessible
-    [Tags]  ContactUsStart
-    ContactUs.Start Now
-
-ContactUS form
-    [Documentation]  Verifies if the contact form is accessible
-    [Tags]  ContactUsForm
-    ContactUs.ContactForm

@@ -6,23 +6,11 @@ Library    SeleniumLibrary
 
 *** Keywords ***
 
-ContactInitialization
-    wait until element is visible   xpath=//*[@id="home"]/nav/div[2]/ul/li[6]/a
-    click link    xpath=//*[@id="home"]/nav/div[2]/ul/li[6]/a
-    sleep    2s
-
-
 Start Now
-    wait until element is visible   xpath=//*[@id="home"]/nav/div[2]/ul/li[6]/a
-    click link    xpath=//*[@id="home"]/nav/div[2]/ul/li[6]/a
-    sleep    2s
     wait until element is visible    id=component-2
-    click button    id=component-2
+    Buttons    2
 
 ContactForm
-    wait until element is visible   xpath=//*[@id="home"]/nav/div[2]/ul/li[6]/a
-    click link    xpath=//*[@id="home"]/nav/div[2]/ul/li[6]/a
-    sleep    2s
     wait until element is visible    id=component-2
     ScrollDown    0    800
     input text    id=contact-name    Hello World
