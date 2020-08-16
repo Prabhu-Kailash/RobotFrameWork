@@ -1,0 +1,13 @@
+datasources:1f6dafcf8c56d44b0a6b0cdda1ee99db78d464f8
+commandlineoptions:9f8598a690c7367accf83ead504756ddd374acc9
+suitesfrom:no-suites-from-option
+file:72ec6f38bc5d8bc7c07073bde0fe34b93151ba81
+--suite Suites.AIBPage
+--suite Suites.About
+--suite Suites.CareersPage
+--suite Suites.ClientAndPartners
+--suite Suites.ContactPage
+--suite Suites.FAQ
+--suite Suites.HomePage
+--suite Suites.ProductsPage
+--suite Suites.ServicesPage

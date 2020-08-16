@@ -4,19 +4,20 @@ Library    SeleniumLibrary
 *** Keywords ***
 
 HeadlessChrome
+    [Arguments]    ${PathToDriver}
     ${chromeOptions}=    Evaluate    sys.modules['selenium.webdriver'].ChromeOptions()    sys, selenium.webdriver
     Call Method    ${chromeOptions}    add_argument    --headless
     Call Method    ${chromeOptions}    add_argument    --window-size\=1366,768
     Call Method    ${chromeOptions}    add_argument    --disable-gpu
-    Create Webdriver    Chrome    chrome_options=${chromeOptions}
+    Create Webdriver    Chrome    executable_path=${PathToDriver}    chrome_options=${chromeOptions}
 
 driver
-    [Arguments]    ${BROWSER}
-    create webdriver    ${BROWSER}
+    [Arguments]    ${BROWSER}    ${PathToDriver}
+    create webdriver    ${BROWSER}    executable_path=${PathToDriver}
 
 Start
-    [Arguments]    ${BROWSER}    ${URL}
-    run keyword if    "${BROWSER}" == "HeadlessChrome"    HeadlessChrome    ELSE    driver    ${BROWSER}
+    [Arguments]    ${BROWSER}    ${URL}    ${PathToDriver}
+    run keyword if    "${BROWSER}" == "HeadlessChrome"    HeadlessChrome    ${PathToDriver}    ELSE    driver    ${BROWSER}    ${PathToDriver}
     Set Window Size    1920   1640
     maximize browser window
     go to    ${URL}

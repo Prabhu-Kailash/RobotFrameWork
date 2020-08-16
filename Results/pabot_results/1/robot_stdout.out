@@ -1,0 +1,44 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.About                                                                  
+==============================================================================
+Site accessibility :: site accessibility test                         | PASS |
+------------------------------------------------------------------------------
+AboutUs 1st Apply Button :: Verifies if the Apply To Join BrainPoo... | PASS |
+------------------------------------------------------------------------------
+Forbes Logo :: Verifies if the Forbes Logo is accessible              | PASS |
+------------------------------------------------------------------------------
+Bloomberg Logo :: Verifies if the Bloomberg Logo is accessible        | PASS |
+------------------------------------------------------------------------------
+Raconteur Logo :: Verifies if the Raconteur Logo is accessible        | PASS |
+------------------------------------------------------------------------------
+Medium Logo :: Verifies if the Medium Logo is accessible              | PASS |
+------------------------------------------------------------------------------
+AI Business Logo :: Verifies if the AI Business Logo is accessible    | PASS |
+------------------------------------------------------------------------------
+The Stack Logo :: Verifies if the The Stack Logo is accessible        | PASS |
+------------------------------------------------------------------------------
+AboutUs 2nd Apply Button :: Verifies if the Apply To Join our Pool... | PASS |
+------------------------------------------------------------------------------
+AboutUs 3rd Apply Button :: Verifies if the Apply To Join our Pool... | PASS |
+------------------------------------------------------------------------------
+Blog Posts 1 :: Verifies if the 1st Blog Post is accessible           | PASS |
+------------------------------------------------------------------------------
+Blog Posts 2 :: Verifies if the 2nd Blog Post is accessible           | PASS |
+------------------------------------------------------------------------------
+Blog Posts 3 :: Verifies if the 3rd Blog Post is accessible           | PASS |
+------------------------------------------------------------------------------
+View Careers Link :: Verifies if the View Careers link is accessible  | PASS |
+------------------------------------------------------------------------------
+Get In Touch Link :: Verifies if the contact link is accessible       | PASS |
+------------------------------------------------------------------------------
+Suites.About                                                          | PASS |
+15 critical tests, 15 passed, 0 failed
+15 tests total, 15 passed, 0 failed
+==============================================================================
+Suites                                                                | PASS |
+15 critical tests, 15 passed, 0 failed
+15 tests total, 15 passed, 0 failed
+==============================================================================
+Output:  C:\Users\pegAsus\workspace_python\SeleniumTrails\WebSiteTesting\Results\pabot_results\1\output.xml

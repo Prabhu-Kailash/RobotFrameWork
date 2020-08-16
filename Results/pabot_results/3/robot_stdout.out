@@ -1,0 +1,52 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.ClientAndPartners                                                      
+==============================================================================
+Site accessibility :: site accessibility test                         | PASS |
+------------------------------------------------------------------------------
+Start Now :: Verifies if start now button accessible                  | PASS |
+------------------------------------------------------------------------------
+Forbes Logo :: Verifies if the Forbes Logo is accessible              | PASS |
+------------------------------------------------------------------------------
+Bloomberg Logo :: Verifies if the Bloomberg Logo is accessible        | PASS |
+------------------------------------------------------------------------------
+Raconteur Logo :: Verifies if the Raconteur Logo is accessible        | PASS |
+------------------------------------------------------------------------------
+Medium Logo :: Verifies if the Medium Logo is accessible              | PASS |
+------------------------------------------------------------------------------
+AI Business Logo :: Verifies if the AI Business Logo is accessible    | PASS |
+------------------------------------------------------------------------------
+The Stack Logo :: Verifies if the Stack Logo is accessible            | PASS |
+------------------------------------------------------------------------------
+Enterprise Management Logo :: Verifies if the Enterprise Managemen... | PASS |
+------------------------------------------------------------------------------
+Forbes Thumb :: Verifies if the Forbes Thumb is accessible            | PASS |
+------------------------------------------------------------------------------
+EnterPriseManagement Thumb :: Verifies if the EnterPriseManagement... | PASS |
+------------------------------------------------------------------------------
+Techerati Thumb :: Verifies if the Techerati Thumb is accessible      | PASS |
+------------------------------------------------------------------------------
+DataIQ Thumb :: Verifies if the DataIQ Thumb is accessible            | PASS |
+------------------------------------------------------------------------------
+WorkSpace Thumb :: Verifies if the WorkSpace Thumb is accessible      | PASS |
+------------------------------------------------------------------------------
+Blog Posts 1 :: Verifies if the 1st Blog Post is accessible           | PASS |
+------------------------------------------------------------------------------
+Blog Posts 2 :: Verifies if the 2nd Blog Post is accessible           | PASS |
+------------------------------------------------------------------------------
+Blog Posts 3 :: Verifies if the 3rd Blog Post is accessible           | PASS |
+------------------------------------------------------------------------------
+Know More About Ethical AI :: Verifies if the Know More About Ethi... | PASS |
+------------------------------------------------------------------------------
+Contact Button :: Verifies if the Contact Button is accessible        | PASS |
+------------------------------------------------------------------------------
+Suites.ClientAndPartners                                              | PASS |
+19 critical tests, 19 passed, 0 failed
+19 tests total, 19 passed, 0 failed
+==============================================================================
+Suites                                                                | PASS |
+19 critical tests, 19 passed, 0 failed
+19 tests total, 19 passed, 0 failed
+==============================================================================
+Output:  C:\Users\pegAsus\workspace_python\SeleniumTrails\WebSiteTesting\Results\pabot_results\3\output.xml

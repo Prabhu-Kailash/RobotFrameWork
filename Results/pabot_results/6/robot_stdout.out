@@ -1,0 +1,62 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.HomePage                                                               
+==============================================================================
+Site accessibility :: site accessibility test                         | PASS |
+------------------------------------------------------------------------------
+LandingPage Start Now Button :: Verifies if the Start Now button i... | PASS |
+------------------------------------------------------------------------------
+Forbes Logo :: Verifies if the Forbes Logo is accessible              | PASS |
+------------------------------------------------------------------------------
+Bloomberg Logo :: Verifies if the Bloomberg Logo is accessible        | PASS |
+------------------------------------------------------------------------------
+Raconteur Logo :: Verifies if the Raconteur Logo is accessible        | PASS |
+------------------------------------------------------------------------------
+Medium Logo :: Verifies if the Medium Logo is accessible              | PASS |
+------------------------------------------------------------------------------
+AI Business Logo :: Verifies if the AI Business Logo is accessible    | PASS |
+------------------------------------------------------------------------------
+Enterprise Management Logo :: Verifies if the Enterprise Managemen... | PASS |
+------------------------------------------------------------------------------
+AI Scoping Programmes :: Verifies if the AI Scoping Programmes is ... | PASS |
+------------------------------------------------------------------------------
+Deploy AI solutions :: Verifies if the Deploy AI solutions is acce... | PASS |
+------------------------------------------------------------------------------
+AI workshops :: Verifies if the AI workshops is accessible            | PASS |
+------------------------------------------------------------------------------
+Ad-hoc AI Support :: Verifies if the Ad-hoc AI Support is accessible  | PASS |
+------------------------------------------------------------------------------
+Daisy :: Verifies if the Daisy is accessible                          | PASS |
+------------------------------------------------------------------------------
+Forstack :: Verifies if the Forstack is accessible                    | PASS |
+------------------------------------------------------------------------------
+Algopool :: Verifies if the Algopool is accessible                    | PASS |
+------------------------------------------------------------------------------
+Learn More Button :: Verifies if the LearnMore button is accessible   | PASS |
+------------------------------------------------------------------------------
+Explore1 Button :: Verifies if the First Explore button is accessible | PASS |
+------------------------------------------------------------------------------
+Explore2 Button :: Verifies if the Second Explore button is access... | PASS |
+------------------------------------------------------------------------------
+ScrollToTopAction :: Verifies if the scroll to top is accessible      | PASS |
+------------------------------------------------------------------------------
+ContactAction :: Verifies if the contact us is accessible             | PASS |
+------------------------------------------------------------------------------
+Blog Posts 1 :: Verifies if the 1st Blog Post is accessible           | PASS |
+------------------------------------------------------------------------------
+Blog Posts 2 :: Verifies if the 2nd Blog Post is accessible           | PASS |
+------------------------------------------------------------------------------
+Blog Posts 3 :: Verifies if the 3rd Blog Post is accessible           | PASS |
+------------------------------------------------------------------------------
+ContactForm :: Verifies if the contact form is accessible             | PASS |
+------------------------------------------------------------------------------
+Suites.HomePage                                                       | PASS |
+24 critical tests, 24 passed, 0 failed
+24 tests total, 24 passed, 0 failed
+==============================================================================
+Suites                                                                | PASS |
+24 critical tests, 24 passed, 0 failed
+24 tests total, 24 passed, 0 failed
+==============================================================================
+Output:  C:\Users\pegAsus\workspace_python\SeleniumTrails\WebSiteTesting\Results\pabot_results\6\output.xml

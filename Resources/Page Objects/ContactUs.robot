@@ -10,6 +10,35 @@ Start Now
     Intialization
     Buttons    2
 
+
+Forbes
+    Intialization
+    LinkTags    25
+
+Bloomberg
+    Intialization
+    LinkTags    26
+
+Raconteur
+    Intialization
+    LinkTags    27
+
+Medium
+    Intialization
+    LinkTags    28
+
+AI Business
+    Intialization
+    LinkTags    29
+
+The Stack
+    Intialization
+    LinkTags    30
+
+EmailAddress
+    Intialization
+    LinkTags    31
+
 ContactForm
     Intialization
     ScrollDown    0    800

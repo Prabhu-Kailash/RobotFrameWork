@@ -422,3 +422,11 @@
 [0810/031520.356:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir4936_1963353116\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
 [0810/031520.356:ERROR:file_io_win.cc(170)] CreateFile C:\Users\pegAsus\AppData\Local\Temp\scoped_dir4936_1963353116\Crashpad\reports\40f9fc22-24e6-4eac-86bc-5d055409ad5d.dmp: The system cannot find the path specified. (0x3)
 [0810/031520.356:ERROR:crash_report_exception_handler.cc(120)] PrepareNewCrashReport failed
+[0816/233120.449:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0816/233120.473:ERROR:exception_snapshot_win.cc(98)] thread ID 28660 not found in process
+[0816/233120.466:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0816/233120.473:ERROR:exception_snapshot_win.cc(98)] thread ID 8452 not found in process
+[0816/233344.558:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0816/233344.559:ERROR:exception_snapshot_win.cc(98)] thread ID 29000 not found in process
+[0816/233344.593:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0816/233344.593:ERROR:exception_snapshot_win.cc(98)] thread ID 27024 not found in process

@@ -1,0 +1,46 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.ServicesPage                                                           
+==============================================================================
+Site accessibility :: site accessibility test                         | PASS |
+------------------------------------------------------------------------------
+Start Now :: Verifies if the Start Now button is accessible           | PASS |
+------------------------------------------------------------------------------
+Forbes Logo :: Verifies if the Forbes Logo is accessible              | PASS |
+------------------------------------------------------------------------------
+Bloomberg Logo :: Verifies if the Bloomberg Logo is accessible        | PASS |
+------------------------------------------------------------------------------
+Raconteur Logo :: Verifies if the Raconteur Logo is accessible        | PASS |
+------------------------------------------------------------------------------
+Medium Logo :: Verifies if the Medium Logo is accessible              | PASS |
+------------------------------------------------------------------------------
+AI Business Logo :: Verifies if the AI Business Logo is accessible    | PASS |
+------------------------------------------------------------------------------
+The Stack Logo :: Verifies if the The Stack Logo is accessible        | PASS |
+------------------------------------------------------------------------------
+Enterprise Management Logo :: Verifies if the Enterprise Managemen... | PASS |
+------------------------------------------------------------------------------
+AI Scoping Programmes :: Verifies if the AI Scoping Programmes is ... | PASS |
+------------------------------------------------------------------------------
+Deploy AI solutions :: Verifies if the Deploy AI solutions is acce... | PASS |
+------------------------------------------------------------------------------
+AI workshops :: Verifies if the AI workshops is accessible            | PASS |
+------------------------------------------------------------------------------
+Ad-hoc AI Support :: Verifies if the Ad-hoc AI Support is accessible  | PASS |
+------------------------------------------------------------------------------
+Learn More :: Verifies if the Learn More is accessible                | PASS |
+------------------------------------------------------------------------------
+ContactAction :: Verifies if the contact us is accessible             | PASS |
+------------------------------------------------------------------------------
+ContactForm :: Verifies if the contact form is accessible             | PASS |
+------------------------------------------------------------------------------
+Suites.ServicesPage                                                   | PASS |
+16 critical tests, 16 passed, 0 failed
+16 tests total, 16 passed, 0 failed
+==============================================================================
+Suites                                                                | PASS |
+16 critical tests, 16 passed, 0 failed
+16 tests total, 16 passed, 0 failed
+==============================================================================
+Output:  C:\Users\pegAsus\workspace_python\SeleniumTrails\WebSiteTesting\Results\pabot_results\8\output.xml

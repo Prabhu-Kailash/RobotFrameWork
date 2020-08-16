@@ -1,0 +1,1983 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.1 (Python 3.8.2 on win32)" generated="20200817 01:30:35.242" rpa="false">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="CareersPage" source="C:\Users\pegAsus\workspace_python\SeleniumTrails\WebSiteTesting\Tests\CareersPage.robot">
+<test id="s1-s1-t1" name="Site accessibility">
+<kw name="Start" library="params" type="setup">
+<arguments>
+<arg>${BROWSER}</arg>
+<arg>${URL}</arg>
+<arg>${PathToDriver}</arg>
+</arguments>
+<kw name="Run Keyword If" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<arguments>
+<arg>"${BROWSER}" == "HeadlessChrome"</arg>
+<arg>HeadlessChrome</arg>
+<arg>${PathToDriver}</arg>
+<arg>ELSE</arg>
+<arg>driver</arg>
+<arg>${BROWSER}</arg>
+<arg>${PathToDriver}</arg>
+</arguments>
+<kw name="HeadlessChrome" library="params">
+<arguments>
+<arg>${PathToDriver}</arg>
+</arguments>
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<arguments>
+<arg>sys.modules['selenium.webdriver'].ChromeOptions()</arg>
+<arg>sys, selenium.webdriver</arg>
+</arguments>
+<assign>
+<var>${chromeOptions}</var>
+</assign>
+<msg timestamp="20200817 01:30:35.746" level="INFO">${chromeOptions} = &lt;selenium.webdriver.chrome.options.Options object at 0x000002484A5EBFA0&gt;</msg>
+<status status="PASS" starttime="20200817 01:30:35.745" endtime="20200817 01:30:35.746"></status>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<arguments>
+<arg>${chromeOptions}</arg>
+<arg>add_argument</arg>
+<arg>--headless</arg>
+</arguments>
+<status status="PASS" starttime="20200817 01:30:35.746" endtime="20200817 01:30:35.746"></status>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<arguments>
+<arg>${chromeOptions}</arg>
+<arg>add_argument</arg>
+<arg>--window-size\=1366,768</arg>
+</arguments>
+<status status="PASS" starttime="20200817 01:30:35.747" endtime="20200817 01:30:35.747"></status>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<arguments>
+<arg>${chromeOptions}</arg>
+<arg>add_argument</arg>
+<arg>--disable-gpu</arg>
+</arguments>
+<status status="PASS" starttime="20200817 01:30:35.748" endtime="20200817 01:30:35.748"></status>
+</kw>
+<kw name="Create Webdriver" library="SeleniumLibrary">
+<doc>Creates an instance of Selenium WebDriver.</doc>
+<arguments>
+<arg>Chrome</arg>
+<arg>executable_path=${PathToDriver}</arg>
+<arg>chrome_options=${chromeOptions}</arg>
+</arguments>
+<msg timestamp="20200817 01:30:35.751" level="INFO">Creating an instance of the Chrome WebDriver.</msg>
+<status status="PASS" starttime="20200817 01:30:35.750" endtime="20200817 01:30:39.981"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:30:35.744" endtime="20200817 01:30:39.981"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:30:35.743" endtime="20200817 01:30:39.981"></status>
+</kw>
+<kw name="Set Window Size" library="SeleniumLibrary">
+<doc>Sets current windows size to given ``width`` and ``height``.</doc>
+<arguments>
+<arg>1920</arg>
+<arg>1640</arg>
+</arguments>
+<status status="PASS" starttime="20200817 01:30:39.981" endtime="20200817 01:30:42.099"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20200817 01:30:42.099" endtime="20200817 01:30:42.207"></status>
+</kw>
+<kw name="Go To" library="SeleniumLibrary">
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<arguments>
+<arg>${URL}</arg>
+</arguments>
+<msg timestamp="20200817 01:30:42.208" level="INFO">Opening url 'https://brainpool.ai/careers.html'</msg>
+<status status="PASS" starttime="20200817 01:30:42.207" endtime="20200817 01:30:52.781"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:30:35.741" endtime="20200817 01:30:52.782"></status>
+</kw>
+<kw name="Intialization" library="params">
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` is visible.</doc>
+<arguments>
+<arg>id=component-2</arg>
+<arg>10s</arg>
+</arguments>
+<status status="PASS" starttime="20200817 01:30:52.784" endtime="20200817 01:30:52.826"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:30:52.782" endtime="20200817 01:30:52.827"></status>
+</kw>
+<kw name="Stop" library="params" type="teardown">
+<kw name="Close All Browsers" library="SeleniumLibrary">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" starttime="20200817 01:30:52.827" endtime="20200817 01:30:55.230"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:30:52.827" endtime="20200817 01:30:55.231"></status>
+</kw>
+<doc>site accessibility test</doc>
+<tags>
+<tag>Smoke</tag>
+</tags>
+<status status="PASS" starttime="20200817 01:30:35.734" endtime="20200817 01:30:55.231" critical="yes"></status>
+</test>
+<test id="s1-s1-t2" name="Apply Button">
+<kw name="Start" library="params" type="setup">
+<arguments>
+<arg>${BROWSER}</arg>
+<arg>${URL}</arg>
+<arg>${PathToDriver}</arg>
+</arguments>
+<kw name="Run Keyword If" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<arguments>
+<arg>"${BROWSER}" == "HeadlessChrome"</arg>
+<arg>HeadlessChrome</arg>
+<arg>${PathToDriver}</arg>
+<arg>ELSE</arg>
+<arg>driver</arg>
+<arg>${BROWSER}</arg>
+<arg>${PathToDriver}</arg>
+</arguments>
+<kw name="HeadlessChrome" library="params">
+<arguments>
+<arg>${PathToDriver}</arg>
+</arguments>
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<arguments>
+<arg>sys.modules['selenium.webdriver'].ChromeOptions()</arg>
+<arg>sys, selenium.webdriver</arg>
+</arguments>
+<assign>
+<var>${chromeOptions}</var>
+</assign>
+<msg timestamp="20200817 01:30:55.240" level="INFO">${chromeOptions} = &lt;selenium.webdriver.chrome.options.Options object at 0x000002484A6621C0&gt;</msg>
+<status status="PASS" starttime="20200817 01:30:55.239" endtime="20200817 01:30:55.240"></status>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<arguments>
+<arg>${chromeOptions}</arg>
+<arg>add_argument</arg>
+<arg>--headless</arg>
+</arguments>
+<status status="PASS" starttime="20200817 01:30:55.240" endtime="20200817 01:30:55.242"></status>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<arguments>
+<arg>${chromeOptions}</arg>
+<arg>add_argument</arg>
+<arg>--window-size\=1366,768</arg>
+</arguments>
+<status status="PASS" starttime="20200817 01:30:55.242" endtime="20200817 01:30:55.243"></status>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<arguments>
+<arg>${chromeOptions}</arg>
+<arg>add_argument</arg>
+<arg>--disable-gpu</arg>
+</arguments>
+<status status="PASS" starttime="20200817 01:30:55.243" endtime="20200817 01:30:55.244"></status>
+</kw>
+<kw name="Create Webdriver" library="SeleniumLibrary">
+<doc>Creates an instance of Selenium WebDriver.</doc>
+<arguments>
+<arg>Chrome</arg>
+<arg>executable_path=${PathToDriver}</arg>
+<arg>chrome_options=${chromeOptions}</arg>
+</arguments>
+<msg timestamp="20200817 01:30:55.246" level="INFO">Creating an instance of the Chrome WebDriver.</msg>
+<status status="PASS" starttime="20200817 01:30:55.244" endtime="20200817 01:31:00.466"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:30:55.237" endtime="20200817 01:31:00.466"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:30:55.236" endtime="20200817 01:31:00.466"></status>
+</kw>
+<kw name="Set Window Size" library="SeleniumLibrary">
+<doc>Sets current windows size to given ``width`` and ``height``.</doc>
+<arguments>
+<arg>1920</arg>
+<arg>1640</arg>
+</arguments>
+<status status="PASS" starttime="20200817 01:31:00.467" endtime="20200817 01:31:02.588"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20200817 01:31:02.588" endtime="20200817 01:31:02.697"></status>
+</kw>
+<kw name="Go To" library="SeleniumLibrary">
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<arguments>
+<arg>${URL}</arg>
+</arguments>
+<msg timestamp="20200817 01:31:02.697" level="INFO">Opening url 'https://brainpool.ai/careers.html'</msg>
+<status status="PASS" starttime="20200817 01:31:02.697" endtime="20200817 01:31:06.381"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:30:55.234" endtime="20200817 01:31:06.382"></status>
+</kw>
+<kw name="Apply" library="Careers">
+<kw name="Intialization" library="params">
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` is visible.</doc>
+<arguments>
+<arg>id=component-2</arg>
+<arg>10s</arg>
+</arguments>
+<status status="PASS" starttime="20200817 01:31:06.384" endtime="20200817 01:31:06.464"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:31:06.383" endtime="20200817 01:31:06.464"></status>
+</kw>
+<kw name="Buttons" library="params">
+<arguments>
+<arg>2</arg>
+</arguments>
+<kw name="Click Button" library="SeleniumLibrary">
+<doc>Clicks the button identified by ``locator``.</doc>
+<arguments>
+<arg>id=component-${ELEMENT}</arg>
+</arguments>
+<msg timestamp="20200817 01:31:06.465" level="INFO">Clicking button 'id=component-2'.</msg>
+<status status="PASS" starttime="20200817 01:31:06.465" endtime="20200817 01:31:07.118"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:31:06.464" endtime="20200817 01:31:07.118"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:31:06.382" endtime="20200817 01:31:07.119"></status>
+</kw>
+<kw name="Stop" library="params" type="teardown">
+<kw name="Close All Browsers" library="SeleniumLibrary">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" starttime="20200817 01:31:07.121" endtime="20200817 01:31:09.449"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:31:07.119" endtime="20200817 01:31:09.449"></status>
+</kw>
+<doc>Verifies if Apply button accessible</doc>
+<tags>
+<tag>CareersPageApply</tag>
+</tags>
+<status status="PASS" starttime="20200817 01:30:55.232" endtime="20200817 01:31:09.449" critical="yes"></status>
+</test>
+<test id="s1-s1-t3" name="Forbes Logo">
+<kw name="Start" library="params" type="setup">
+<arguments>
+<arg>${BROWSER}</arg>
+<arg>${URL}</arg>
+<arg>${PathToDriver}</arg>
+</arguments>
+<kw name="Run Keyword If" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<arguments>
+<arg>"${BROWSER}" == "HeadlessChrome"</arg>
+<arg>HeadlessChrome</arg>
+<arg>${PathToDriver}</arg>
+<arg>ELSE</arg>
+<arg>driver</arg>
+<arg>${BROWSER}</arg>
+<arg>${PathToDriver}</arg>
+</arguments>
+<kw name="HeadlessChrome" library="params">
+<arguments>
+<arg>${PathToDriver}</arg>
+</arguments>
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<arguments>
+<arg>sys.modules['selenium.webdriver'].ChromeOptions()</arg>
+<arg>sys, selenium.webdriver</arg>
+</arguments>
+<assign>
+<var>${chromeOptions}</var>
+</assign>
+<msg timestamp="20200817 01:31:09.452" level="INFO">${chromeOptions} = &lt;selenium.webdriver.chrome.options.Options object at 0x000002484A66F880&gt;</msg>
+<status status="PASS" starttime="20200817 01:31:09.451" endtime="20200817 01:31:09.452"></status>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<arguments>
+<arg>${chromeOptions}</arg>
+<arg>add_argument</arg>
+<arg>--headless</arg>
+</arguments>
+<status status="PASS" starttime="20200817 01:31:09.452" endtime="20200817 01:31:09.452"></status>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<arguments>
+<arg>${chromeOptions}</arg>
+<arg>add_argument</arg>
+<arg>--window-size\=1366,768</arg>
+</arguments>
+<status status="PASS" starttime="20200817 01:31:09.452" endtime="20200817 01:31:09.452"></status>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<arguments>
+<arg>${chromeOptions}</arg>
+<arg>add_argument</arg>
+<arg>--disable-gpu</arg>
+</arguments>
+<status status="PASS" starttime="20200817 01:31:09.452" endtime="20200817 01:31:09.453"></status>
+</kw>
+<kw name="Create Webdriver" library="SeleniumLibrary">
+<doc>Creates an instance of Selenium WebDriver.</doc>
+<arguments>
+<arg>Chrome</arg>
+<arg>executable_path=${PathToDriver}</arg>
+<arg>chrome_options=${chromeOptions}</arg>
+</arguments>
+<msg timestamp="20200817 01:31:09.454" level="INFO">Creating an instance of the Chrome WebDriver.</msg>
+<status status="PASS" starttime="20200817 01:31:09.453" endtime="20200817 01:31:13.176"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:31:09.451" endtime="20200817 01:31:13.177"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:31:09.450" endtime="20200817 01:31:13.177"></status>
+</kw>
+<kw name="Set Window Size" library="SeleniumLibrary">
+<doc>Sets current windows size to given ``width`` and ``height``.</doc>
+<arguments>
+<arg>1920</arg>
+<arg>1640</arg>
+</arguments>
+<status status="PASS" starttime="20200817 01:31:13.177" endtime="20200817 01:31:15.355"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20200817 01:31:15.355" endtime="20200817 01:31:15.478"></status>
+</kw>
+<kw name="Go To" library="SeleniumLibrary">
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<arguments>
+<arg>${URL}</arg>
+</arguments>
+<msg timestamp="20200817 01:31:15.480" level="INFO">Opening url 'https://brainpool.ai/careers.html'</msg>
+<status status="PASS" starttime="20200817 01:31:15.479" endtime="20200817 01:31:20.955"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:31:09.450" endtime="20200817 01:31:20.955"></status>
+</kw>
+<kw name="Forbes" library="Careers">
+<kw name="Intialization" library="params">
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` is visible.</doc>
+<arguments>
+<arg>id=component-2</arg>
+<arg>10s</arg>
+</arguments>
+<status status="PASS" starttime="20200817 01:31:20.957" endtime="20200817 01:31:21.023"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:31:20.957" endtime="20200817 01:31:21.023"></status>
+</kw>
+<kw name="LinkTags" library="params">
+<arguments>
+<arg>25</arg>
+</arguments>
+<kw name="Execute Javascript" library="SeleniumLibrary">
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<arguments>
+<arg>document.querySelectorAll("a")[${POS}].click()</arg>
+</arguments>
+<msg timestamp="20200817 01:31:21.024" level="INFO">Executing JavaScript:
+document.querySelectorAll("a")[25].click()
+Without any arguments.</msg>
+<status status="PASS" starttime="20200817 01:31:21.024" endtime="20200817 01:31:22.006"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:31:21.023" endtime="20200817 01:31:22.007"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:31:20.955" endtime="20200817 01:31:22.007"></status>
+</kw>
+<kw name="Stop" library="params" type="teardown">
+<kw name="Close All Browsers" library="SeleniumLibrary">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" starttime="20200817 01:31:22.008" endtime="20200817 01:31:25.148"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:31:22.008" endtime="20200817 01:31:25.149"></status>
+</kw>
+<doc>Verifies if the Forbes Logo is accessible</doc>
+<tags>
+<tag>CnPsPageForbes</tag>
+</tags>
+<status status="PASS" starttime="20200817 01:31:09.449" endtime="20200817 01:31:25.149" critical="yes"></status>
+</test>
+<test id="s1-s1-t4" name="Bloomberg Logo">
+<kw name="Start" library="params" type="setup">
+<arguments>
+<arg>${BROWSER}</arg>
+<arg>${URL}</arg>
+<arg>${PathToDriver}</arg>
+</arguments>
+<kw name="Run Keyword If" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<arguments>
+<arg>"${BROWSER}" == "HeadlessChrome"</arg>
+<arg>HeadlessChrome</arg>
+<arg>${PathToDriver}</arg>
+<arg>ELSE</arg>
+<arg>driver</arg>
+<arg>${BROWSER}</arg>
+<arg>${PathToDriver}</arg>
+</arguments>
+<kw name="HeadlessChrome" library="params">
+<arguments>
+<arg>${PathToDriver}</arg>
+</arguments>
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<arguments>
+<arg>sys.modules['selenium.webdriver'].ChromeOptions()</arg>
+<arg>sys, selenium.webdriver</arg>
+</arguments>
+<assign>
+<var>${chromeOptions}</var>
+</assign>
+<msg timestamp="20200817 01:31:25.153" level="INFO">${chromeOptions} = &lt;selenium.webdriver.chrome.options.Options object at 0x000002484A676DF0&gt;</msg>
+<status status="PASS" starttime="20200817 01:31:25.152" endtime="20200817 01:31:25.153"></status>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<arguments>
+<arg>${chromeOptions}</arg>
+<arg>add_argument</arg>
+<arg>--headless</arg>
+</arguments>
+<status status="PASS" starttime="20200817 01:31:25.153" endtime="20200817 01:31:25.154"></status>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<arguments>
+<arg>${chromeOptions}</arg>
+<arg>add_argument</arg>
+<arg>--window-size\=1366,768</arg>
+</arguments>
+<status status="PASS" starttime="20200817 01:31:25.154" endtime="20200817 01:31:25.154"></status>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<arguments>
+<arg>${chromeOptions}</arg>
+<arg>add_argument</arg>
+<arg>--disable-gpu</arg>
+</arguments>
+<status status="PASS" starttime="20200817 01:31:25.155" endtime="20200817 01:31:25.155"></status>
+</kw>
+<kw name="Create Webdriver" library="SeleniumLibrary">
+<doc>Creates an instance of Selenium WebDriver.</doc>
+<arguments>
+<arg>Chrome</arg>
+<arg>executable_path=${PathToDriver}</arg>
+<arg>chrome_options=${chromeOptions}</arg>
+</arguments>
+<msg timestamp="20200817 01:31:25.156" level="INFO">Creating an instance of the Chrome WebDriver.</msg>
+<status status="PASS" starttime="20200817 01:31:25.155" endtime="20200817 01:31:28.638"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:31:25.151" endtime="20200817 01:31:28.639"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:31:25.151" endtime="20200817 01:31:28.639"></status>
+</kw>
+<kw name="Set Window Size" library="SeleniumLibrary">
+<doc>Sets current windows size to given ``width`` and ``height``.</doc>
+<arguments>
+<arg>1920</arg>
+<arg>1640</arg>
+</arguments>
+<status status="PASS" starttime="20200817 01:31:28.640" endtime="20200817 01:31:30.827"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20200817 01:31:30.828" endtime="20200817 01:31:30.973"></status>
+</kw>
+<kw name="Go To" library="SeleniumLibrary">
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<arguments>
+<arg>${URL}</arg>
+</arguments>
+<msg timestamp="20200817 01:31:30.974" level="INFO">Opening url 'https://brainpool.ai/careers.html'</msg>
+<status status="PASS" starttime="20200817 01:31:30.973" endtime="20200817 01:31:35.832"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:31:25.150" endtime="20200817 01:31:35.833"></status>
+</kw>
+<kw name="Bloomberg" library="Careers">
+<kw name="Intialization" library="params">
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` is visible.</doc>
+<arguments>
+<arg>id=component-2</arg>
+<arg>10s</arg>
+</arguments>
+<status status="PASS" starttime="20200817 01:31:35.835" endtime="20200817 01:31:36.034"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:31:35.834" endtime="20200817 01:31:36.034"></status>
+</kw>
+<kw name="LinkTags" library="params">
+<arguments>
+<arg>26</arg>
+</arguments>
+<kw name="Execute Javascript" library="SeleniumLibrary">
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<arguments>
+<arg>document.querySelectorAll("a")[${POS}].click()</arg>
+</arguments>
+<msg timestamp="20200817 01:31:36.037" level="INFO">Executing JavaScript:
+document.querySelectorAll("a")[26].click()
+Without any arguments.</msg>
+<status status="PASS" starttime="20200817 01:31:36.036" endtime="20200817 01:31:38.892"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:31:36.035" endtime="20200817 01:31:38.893"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:31:35.833" endtime="20200817 01:31:38.893"></status>
+</kw>
+<kw name="Stop" library="params" type="teardown">
+<kw name="Close All Browsers" library="SeleniumLibrary">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" starttime="20200817 01:31:38.894" endtime="20200817 01:31:40.986"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:31:38.894" endtime="20200817 01:31:40.986"></status>
+</kw>
+<doc>Verifies if the Bloomberg Logo is accessible</doc>
+<tags>
+<tag>CareersPageBloomberg</tag>
+</tags>
+<status status="PASS" starttime="20200817 01:31:25.150" endtime="20200817 01:31:40.986" critical="yes"></status>
+</test>
+<test id="s1-s1-t5" name="Raconteur Logo">
+<kw name="Start" library="params" type="setup">
+<arguments>
+<arg>${BROWSER}</arg>
+<arg>${URL}</arg>
+<arg>${PathToDriver}</arg>
+</arguments>
+<kw name="Run Keyword If" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<arguments>
+<arg>"${BROWSER}" == "HeadlessChrome"</arg>
+<arg>HeadlessChrome</arg>
+<arg>${PathToDriver}</arg>
+<arg>ELSE</arg>
+<arg>driver</arg>
+<arg>${BROWSER}</arg>
+<arg>${PathToDriver}</arg>
+</arguments>
+<kw name="HeadlessChrome" library="params">
+<arguments>
+<arg>${PathToDriver}</arg>
+</arguments>
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<arguments>
+<arg>sys.modules['selenium.webdriver'].ChromeOptions()</arg>
+<arg>sys, selenium.webdriver</arg>
+</arguments>
+<assign>
+<var>${chromeOptions}</var>
+</assign>
+<msg timestamp="20200817 01:31:40.992" level="INFO">${chromeOptions} = &lt;selenium.webdriver.chrome.options.Options object at 0x000002484A67BA60&gt;</msg>
+<status status="PASS" starttime="20200817 01:31:40.991" endtime="20200817 01:31:40.992"></status>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<arguments>
+<arg>${chromeOptions}</arg>
+<arg>add_argument</arg>
+<arg>--headless</arg>
+</arguments>
+<status status="PASS" starttime="20200817 01:31:40.992" endtime="20200817 01:31:40.992"></status>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<arguments>
+<arg>${chromeOptions}</arg>
+<arg>add_argument</arg>
+<arg>--window-size\=1366,768</arg>
+</arguments>
+<status status="PASS" starttime="20200817 01:31:40.992" endtime="20200817 01:31:40.993"></status>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<arguments>
+<arg>${chromeOptions}</arg>
+<arg>add_argument</arg>
+<arg>--disable-gpu</arg>
+</arguments>
+<status status="PASS" starttime="20200817 01:31:40.993" endtime="20200817 01:31:40.993"></status>
+</kw>
+<kw name="Create Webdriver" library="SeleniumLibrary">
+<doc>Creates an instance of Selenium WebDriver.</doc>
+<arguments>
+<arg>Chrome</arg>
+<arg>executable_path=${PathToDriver}</arg>
+<arg>chrome_options=${chromeOptions}</arg>
+</arguments>
+<msg timestamp="20200817 01:31:40.993" level="INFO">Creating an instance of the Chrome WebDriver.</msg>
+<status status="PASS" starttime="20200817 01:31:40.993" endtime="20200817 01:31:44.448"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:31:40.990" endtime="20200817 01:31:44.448"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:31:40.989" endtime="20200817 01:31:44.448"></status>
+</kw>
+<kw name="Set Window Size" library="SeleniumLibrary">
+<doc>Sets current windows size to given ``width`` and ``height``.</doc>
+<arguments>
+<arg>1920</arg>
+<arg>1640</arg>
+</arguments>
+<status status="PASS" starttime="20200817 01:31:44.448" endtime="20200817 01:31:46.599"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20200817 01:31:46.599" endtime="20200817 01:31:46.753"></status>
+</kw>
+<kw name="Go To" library="SeleniumLibrary">
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<arguments>
+<arg>${URL}</arg>
+</arguments>
+<msg timestamp="20200817 01:31:46.754" level="INFO">Opening url 'https://brainpool.ai/careers.html'</msg>
+<status status="PASS" starttime="20200817 01:31:46.754" endtime="20200817 01:31:50.339"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:31:40.988" endtime="20200817 01:31:50.340"></status>
+</kw>
+<kw name="Raconteur" library="Careers">
+<kw name="Intialization" library="params">
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` is visible.</doc>
+<arguments>
+<arg>id=component-2</arg>
+<arg>10s</arg>
+</arguments>
+<status status="PASS" starttime="20200817 01:31:50.344" endtime="20200817 01:31:51.077"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:31:50.342" endtime="20200817 01:31:51.078"></status>
+</kw>
+<kw name="LinkTags" library="params">
+<arguments>
+<arg>27</arg>
+</arguments>
+<kw name="Execute Javascript" library="SeleniumLibrary">
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<arguments>
+<arg>document.querySelectorAll("a")[${POS}].click()</arg>
+</arguments>
+<msg timestamp="20200817 01:31:51.081" level="INFO">Executing JavaScript:
+document.querySelectorAll("a")[27].click()
+Without any arguments.</msg>
+<status status="PASS" starttime="20200817 01:31:51.080" endtime="20200817 01:32:00.709"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:31:51.079" endtime="20200817 01:32:00.710"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:31:50.340" endtime="20200817 01:32:00.710"></status>
+</kw>
+<kw name="Stop" library="params" type="teardown">
+<kw name="Close All Browsers" library="SeleniumLibrary">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" starttime="20200817 01:32:00.711" endtime="20200817 01:32:02.990"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:32:00.711" endtime="20200817 01:32:02.990"></status>
+</kw>
+<doc>Verifies if the Raconteur Logo is accessible</doc>
+<tags>
+<tag>CareersPageRaconteur</tag>
+</tags>
+<status status="PASS" starttime="20200817 01:31:40.987" endtime="20200817 01:32:02.991" critical="yes"></status>
+</test>
+<test id="s1-s1-t6" name="Medium Logo">
+<kw name="Start" library="params" type="setup">
+<arguments>
+<arg>${BROWSER}</arg>
+<arg>${URL}</arg>
+<arg>${PathToDriver}</arg>
+</arguments>
+<kw name="Run Keyword If" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<arguments>
+<arg>"${BROWSER}" == "HeadlessChrome"</arg>
+<arg>HeadlessChrome</arg>
+<arg>${PathToDriver}</arg>
+<arg>ELSE</arg>
+<arg>driver</arg>
+<arg>${BROWSER}</arg>
+<arg>${PathToDriver}</arg>
+</arguments>
+<kw name="HeadlessChrome" library="params">
+<arguments>
+<arg>${PathToDriver}</arg>
+</arguments>
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<arguments>
+<arg>sys.modules['selenium.webdriver'].ChromeOptions()</arg>
+<arg>sys, selenium.webdriver</arg>
+</arguments>
+<assign>
+<var>${chromeOptions}</var>
+</assign>
+<msg timestamp="20200817 01:32:02.998" level="INFO">${chromeOptions} = &lt;selenium.webdriver.chrome.options.Options object at 0x000002484A65DC70&gt;</msg>
+<status status="PASS" starttime="20200817 01:32:02.997" endtime="20200817 01:32:02.998"></status>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<arguments>
+<arg>${chromeOptions}</arg>
+<arg>add_argument</arg>
+<arg>--headless</arg>
+</arguments>
+<status status="PASS" starttime="20200817 01:32:02.998" endtime="20200817 01:32:02.999"></status>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<arguments>
+<arg>${chromeOptions}</arg>
+<arg>add_argument</arg>
+<arg>--window-size\=1366,768</arg>
+</arguments>
+<status status="PASS" starttime="20200817 01:32:02.999" endtime="20200817 01:32:02.999"></status>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<arguments>
+<arg>${chromeOptions}</arg>
+<arg>add_argument</arg>
+<arg>--disable-gpu</arg>
+</arguments>
+<status status="PASS" starttime="20200817 01:32:03.000" endtime="20200817 01:32:03.000"></status>
+</kw>
+<kw name="Create Webdriver" library="SeleniumLibrary">
+<doc>Creates an instance of Selenium WebDriver.</doc>
+<arguments>
+<arg>Chrome</arg>
+<arg>executable_path=${PathToDriver}</arg>
+<arg>chrome_options=${chromeOptions}</arg>
+</arguments>
+<msg timestamp="20200817 01:32:03.002" level="INFO">Creating an instance of the Chrome WebDriver.</msg>
+<status status="PASS" starttime="20200817 01:32:03.000" endtime="20200817 01:32:06.791"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:32:02.996" endtime="20200817 01:32:06.792"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:32:02.995" endtime="20200817 01:32:06.792"></status>
+</kw>
+<kw name="Set Window Size" library="SeleniumLibrary">
+<doc>Sets current windows size to given ``width`` and ``height``.</doc>
+<arguments>
+<arg>1920</arg>
+<arg>1640</arg>
+</arguments>
+<status status="PASS" starttime="20200817 01:32:06.792" endtime="20200817 01:32:08.937"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20200817 01:32:08.937" endtime="20200817 01:32:09.063"></status>
+</kw>
+<kw name="Go To" library="SeleniumLibrary">
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<arguments>
+<arg>${URL}</arg>
+</arguments>
+<msg timestamp="20200817 01:32:09.064" level="INFO">Opening url 'https://brainpool.ai/careers.html'</msg>
+<status status="PASS" starttime="20200817 01:32:09.063" endtime="20200817 01:32:14.669"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:32:02.994" endtime="20200817 01:32:14.669"></status>
+</kw>
+<kw name="Medium" library="Careers">
+<kw name="Intialization" library="params">
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` is visible.</doc>
+<arguments>
+<arg>id=component-2</arg>
+<arg>10s</arg>
+</arguments>
+<status status="PASS" starttime="20200817 01:32:14.673" endtime="20200817 01:32:14.924"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:32:14.672" endtime="20200817 01:32:14.924"></status>
+</kw>
+<kw name="LinkTags" library="params">
+<arguments>
+<arg>28</arg>
+</arguments>
+<kw name="Execute Javascript" library="SeleniumLibrary">
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<arguments>
+<arg>document.querySelectorAll("a")[${POS}].click()</arg>
+</arguments>
+<msg timestamp="20200817 01:32:14.926" level="INFO">Executing JavaScript:
+document.querySelectorAll("a")[28].click()
+Without any arguments.</msg>
+<status status="PASS" starttime="20200817 01:32:14.925" endtime="20200817 01:32:27.460"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:32:14.925" endtime="20200817 01:32:27.460"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:32:14.671" endtime="20200817 01:32:27.461"></status>
+</kw>
+<kw name="Stop" library="params" type="teardown">
+<kw name="Close All Browsers" library="SeleniumLibrary">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" starttime="20200817 01:32:27.462" endtime="20200817 01:32:29.712"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:32:27.461" endtime="20200817 01:32:29.712"></status>
+</kw>
+<doc>Verifies if the Medium Logo is accessible</doc>
+<tags>
+<tag>CareersPageMedium</tag>
+</tags>
+<status status="PASS" starttime="20200817 01:32:02.992" endtime="20200817 01:32:29.713" critical="yes"></status>
+</test>
+<test id="s1-s1-t7" name="AI Business Logo">
+<kw name="Start" library="params" type="setup">
+<arguments>
+<arg>${BROWSER}</arg>
+<arg>${URL}</arg>
+<arg>${PathToDriver}</arg>
+</arguments>
+<kw name="Run Keyword If" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<arguments>
+<arg>"${BROWSER}" == "HeadlessChrome"</arg>
+<arg>HeadlessChrome</arg>
+<arg>${PathToDriver}</arg>
+<arg>ELSE</arg>
+<arg>driver</arg>
+<arg>${BROWSER}</arg>
+<arg>${PathToDriver}</arg>
+</arguments>
+<kw name="HeadlessChrome" library="params">
+<arguments>
+<arg>${PathToDriver}</arg>
+</arguments>
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<arguments>
+<arg>sys.modules['selenium.webdriver'].ChromeOptions()</arg>
+<arg>sys, selenium.webdriver</arg>
+</arguments>
+<assign>
+<var>${chromeOptions}</var>
+</assign>
+<msg timestamp="20200817 01:32:29.719" level="INFO">${chromeOptions} = &lt;selenium.webdriver.chrome.options.Options object at 0x000002484A67BB20&gt;</msg>
+<status status="PASS" starttime="20200817 01:32:29.718" endtime="20200817 01:32:29.719"></status>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<arguments>
+<arg>${chromeOptions}</arg>
+<arg>add_argument</arg>
+<arg>--headless</arg>
+</arguments>
+<status status="PASS" starttime="20200817 01:32:29.720" endtime="20200817 01:32:29.720"></status>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<arguments>
+<arg>${chromeOptions}</arg>
+<arg>add_argument</arg>
+<arg>--window-size\=1366,768</arg>
+</arguments>
+<status status="PASS" starttime="20200817 01:32:29.720" endtime="20200817 01:32:29.721"></status>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<arguments>
+<arg>${chromeOptions}</arg>
+<arg>add_argument</arg>
+<arg>--disable-gpu</arg>
+</arguments>
+<status status="PASS" starttime="20200817 01:32:29.721" endtime="20200817 01:32:29.722"></status>
+</kw>
+<kw name="Create Webdriver" library="SeleniumLibrary">
+<doc>Creates an instance of Selenium WebDriver.</doc>
+<arguments>
+<arg>Chrome</arg>
+<arg>executable_path=${PathToDriver}</arg>
+<arg>chrome_options=${chromeOptions}</arg>
+</arguments>
+<msg timestamp="20200817 01:32:29.723" level="INFO">Creating an instance of the Chrome WebDriver.</msg>
+<status status="PASS" starttime="20200817 01:32:29.722" endtime="20200817 01:32:33.483"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:32:29.717" endtime="20200817 01:32:33.484"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:32:29.716" endtime="20200817 01:32:33.484"></status>
+</kw>
+<kw name="Set Window Size" library="SeleniumLibrary">
+<doc>Sets current windows size to given ``width`` and ``height``.</doc>
+<arguments>
+<arg>1920</arg>
+<arg>1640</arg>
+</arguments>
+<status status="PASS" starttime="20200817 01:32:33.484" endtime="20200817 01:32:35.712"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20200817 01:32:35.712" endtime="20200817 01:32:35.820"></status>
+</kw>
+<kw name="Go To" library="SeleniumLibrary">
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<arguments>
+<arg>${URL}</arg>
+</arguments>
+<msg timestamp="20200817 01:32:35.820" level="INFO">Opening url 'https://brainpool.ai/careers.html'</msg>
+<status status="PASS" starttime="20200817 01:32:35.820" endtime="20200817 01:32:41.073"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:32:29.715" endtime="20200817 01:32:41.073"></status>
+</kw>
+<kw name="AI Business" library="Careers">
+<kw name="Intialization" library="params">
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` is visible.</doc>
+<arguments>
+<arg>id=component-2</arg>
+<arg>10s</arg>
+</arguments>
+<status status="PASS" starttime="20200817 01:32:41.075" endtime="20200817 01:32:41.564"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:32:41.074" endtime="20200817 01:32:41.564"></status>
+</kw>
+<kw name="LinkTags" library="params">
+<arguments>
+<arg>29</arg>
+</arguments>
+<kw name="Execute Javascript" library="SeleniumLibrary">
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<arguments>
+<arg>document.querySelectorAll("a")[${POS}].click()</arg>
+</arguments>
+<msg timestamp="20200817 01:32:41.567" level="INFO">Executing JavaScript:
+document.querySelectorAll("a")[29].click()
+Without any arguments.</msg>
+<status status="PASS" starttime="20200817 01:32:41.565" endtime="20200817 01:32:58.452"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:32:41.564" endtime="20200817 01:32:58.452"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:32:41.073" endtime="20200817 01:32:58.452"></status>
+</kw>
+<kw name="Stop" library="params" type="teardown">
+<kw name="Close All Browsers" library="SeleniumLibrary">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" starttime="20200817 01:32:58.453" endtime="20200817 01:33:00.787"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:32:58.452" endtime="20200817 01:33:00.788"></status>
+</kw>
+<doc>Verifies if the AI Business Logo is accessible</doc>
+<tags>
+<tag>CareersPageAIBusiness</tag>
+</tags>
+<status status="PASS" starttime="20200817 01:32:29.714" endtime="20200817 01:33:00.789" critical="yes"></status>
+</test>
+<test id="s1-s1-t8" name="The Stack Logo">
+<kw name="Start" library="params" type="setup">
+<arguments>
+<arg>${BROWSER}</arg>
+<arg>${URL}</arg>
+<arg>${PathToDriver}</arg>
+</arguments>
+<kw name="Run Keyword If" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<arguments>
+<arg>"${BROWSER}" == "HeadlessChrome"</arg>
+<arg>HeadlessChrome</arg>
+<arg>${PathToDriver}</arg>
+<arg>ELSE</arg>
+<arg>driver</arg>
+<arg>${BROWSER}</arg>
+<arg>${PathToDriver}</arg>
+</arguments>
+<kw name="HeadlessChrome" library="params">
+<arguments>
+<arg>${PathToDriver}</arg>
+</arguments>
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<arguments>
+<arg>sys.modules['selenium.webdriver'].ChromeOptions()</arg>
+<arg>sys, selenium.webdriver</arg>
+</arguments>
+<assign>
+<var>${chromeOptions}</var>
+</assign>
+<msg timestamp="20200817 01:33:00.813" level="INFO">${chromeOptions} = &lt;selenium.webdriver.chrome.options.Options object at 0x000002484A5D22B0&gt;</msg>
+<status status="PASS" starttime="20200817 01:33:00.809" endtime="20200817 01:33:00.813"></status>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<arguments>
+<arg>${chromeOptions}</arg>
+<arg>add_argument</arg>
+<arg>--headless</arg>
+</arguments>
+<status status="PASS" starttime="20200817 01:33:00.815" endtime="20200817 01:33:00.817"></status>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<arguments>
+<arg>${chromeOptions}</arg>
+<arg>add_argument</arg>
+<arg>--window-size\=1366,768</arg>
+</arguments>
+<status status="PASS" starttime="20200817 01:33:00.819" endtime="20200817 01:33:00.822"></status>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<arguments>
+<arg>${chromeOptions}</arg>
+<arg>add_argument</arg>
+<arg>--disable-gpu</arg>
+</arguments>
+<status status="PASS" starttime="20200817 01:33:00.823" endtime="20200817 01:33:00.827"></status>
+</kw>
+<kw name="Create Webdriver" library="SeleniumLibrary">
+<doc>Creates an instance of Selenium WebDriver.</doc>
+<arguments>
+<arg>Chrome</arg>
+<arg>executable_path=${PathToDriver}</arg>
+<arg>chrome_options=${chromeOptions}</arg>
+</arguments>
+<msg timestamp="20200817 01:33:00.829" level="INFO">Creating an instance of the Chrome WebDriver.</msg>
+<status status="PASS" starttime="20200817 01:33:00.828" endtime="20200817 01:33:07.162"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:33:00.806" endtime="20200817 01:33:07.162"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:33:00.802" endtime="20200817 01:33:07.162"></status>
+</kw>
+<kw name="Set Window Size" library="SeleniumLibrary">
+<doc>Sets current windows size to given ``width`` and ``height``.</doc>
+<arguments>
+<arg>1920</arg>
+<arg>1640</arg>
+</arguments>
+<status status="PASS" starttime="20200817 01:33:07.162" endtime="20200817 01:33:09.306"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20200817 01:33:09.306" endtime="20200817 01:33:09.695"></status>
+</kw>
+<kw name="Go To" library="SeleniumLibrary">
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<arguments>
+<arg>${URL}</arg>
+</arguments>
+<msg timestamp="20200817 01:33:09.696" level="INFO">Opening url 'https://brainpool.ai/careers.html'</msg>
+<status status="PASS" starttime="20200817 01:33:09.695" endtime="20200817 01:33:18.668"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:33:00.797" endtime="20200817 01:33:18.668"></status>
+</kw>
+<kw name="The Stack" library="Careers">
+<kw name="Intialization" library="params">
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` is visible.</doc>
+<arguments>
+<arg>id=component-2</arg>
+<arg>10s</arg>
+</arguments>
+<status status="PASS" starttime="20200817 01:33:18.670" endtime="20200817 01:33:18.738"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:33:18.670" endtime="20200817 01:33:18.738"></status>
+</kw>
+<kw name="LinkTags" library="params">
+<arguments>
+<arg>30</arg>
+</arguments>
+<kw name="Execute Javascript" library="SeleniumLibrary">
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<arguments>
+<arg>document.querySelectorAll("a")[${POS}].click()</arg>
+</arguments>
+<msg timestamp="20200817 01:33:18.740" level="INFO">Executing JavaScript:
+document.querySelectorAll("a")[30].click()
+Without any arguments.</msg>
+<status status="PASS" starttime="20200817 01:33:18.739" endtime="20200817 01:33:20.222"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:33:18.738" endtime="20200817 01:33:20.222"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:33:18.669" endtime="20200817 01:33:20.223"></status>
+</kw>
+<kw name="Stop" library="params" type="teardown">
+<kw name="Close All Browsers" library="SeleniumLibrary">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" starttime="20200817 01:33:20.224" endtime="20200817 01:33:22.422"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:33:20.223" endtime="20200817 01:33:22.422"></status>
+</kw>
+<doc>Verifies if the Stack Logo is accessible</doc>
+<tags>
+<tag>CareersPageTheStack</tag>
+</tags>
+<status status="PASS" starttime="20200817 01:33:00.794" endtime="20200817 01:33:22.423" critical="yes"></status>
+</test>
+<test id="s1-s1-t9" name="Enterprise Management Logo">
+<kw name="Start" library="params" type="setup">
+<arguments>
+<arg>${BROWSER}</arg>
+<arg>${URL}</arg>
+<arg>${PathToDriver}</arg>
+</arguments>
+<kw name="Run Keyword If" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<arguments>
+<arg>"${BROWSER}" == "HeadlessChrome"</arg>
+<arg>HeadlessChrome</arg>
+<arg>${PathToDriver}</arg>
+<arg>ELSE</arg>
+<arg>driver</arg>
+<arg>${BROWSER}</arg>
+<arg>${PathToDriver}</arg>
+</arguments>
+<kw name="HeadlessChrome" library="params">
+<arguments>
+<arg>${PathToDriver}</arg>
+</arguments>
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<arguments>
+<arg>sys.modules['selenium.webdriver'].ChromeOptions()</arg>
+<arg>sys, selenium.webdriver</arg>
+</arguments>
+<assign>
+<var>${chromeOptions}</var>
+</assign>
+<msg timestamp="20200817 01:33:22.431" level="INFO">${chromeOptions} = &lt;selenium.webdriver.chrome.options.Options object at 0x000002484A68C430&gt;</msg>
+<status status="PASS" starttime="20200817 01:33:22.430" endtime="20200817 01:33:22.431"></status>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<arguments>
+<arg>${chromeOptions}</arg>
+<arg>add_argument</arg>
+<arg>--headless</arg>
+</arguments>
+<status status="PASS" starttime="20200817 01:33:22.431" endtime="20200817 01:33:22.432"></status>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<arguments>
+<arg>${chromeOptions}</arg>
+<arg>add_argument</arg>
+<arg>--window-size\=1366,768</arg>
+</arguments>
+<status status="PASS" starttime="20200817 01:33:22.432" endtime="20200817 01:33:22.432"></status>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<arguments>
+<arg>${chromeOptions}</arg>
+<arg>add_argument</arg>
+<arg>--disable-gpu</arg>
+</arguments>
+<status status="PASS" starttime="20200817 01:33:22.433" endtime="20200817 01:33:22.433"></status>
+</kw>
+<kw name="Create Webdriver" library="SeleniumLibrary">
+<doc>Creates an instance of Selenium WebDriver.</doc>
+<arguments>
+<arg>Chrome</arg>
+<arg>executable_path=${PathToDriver}</arg>
+<arg>chrome_options=${chromeOptions}</arg>
+</arguments>
+<msg timestamp="20200817 01:33:22.434" level="INFO">Creating an instance of the Chrome WebDriver.</msg>
+<status status="PASS" starttime="20200817 01:33:22.433" endtime="20200817 01:33:25.873"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:33:22.429" endtime="20200817 01:33:25.873"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:33:22.427" endtime="20200817 01:33:25.874"></status>
+</kw>
+<kw name="Set Window Size" library="SeleniumLibrary">
+<doc>Sets current windows size to given ``width`` and ``height``.</doc>
+<arguments>
+<arg>1920</arg>
+<arg>1640</arg>
+</arguments>
+<status status="PASS" starttime="20200817 01:33:25.874" endtime="20200817 01:33:27.993"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20200817 01:33:27.994" endtime="20200817 01:33:28.101"></status>
+</kw>
+<kw name="Go To" library="SeleniumLibrary">
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<arguments>
+<arg>${URL}</arg>
+</arguments>
+<msg timestamp="20200817 01:33:28.101" level="INFO">Opening url 'https://brainpool.ai/careers.html'</msg>
+<status status="PASS" starttime="20200817 01:33:28.101" endtime="20200817 01:33:37.584"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:33:22.426" endtime="20200817 01:33:37.585"></status>
+</kw>
+<kw name="Enterprise Management" library="Careers">
+<kw name="Intialization" library="params">
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` is visible.</doc>
+<arguments>
+<arg>id=component-2</arg>
+<arg>10s</arg>
+</arguments>
+<status status="PASS" starttime="20200817 01:33:37.590" endtime="20200817 01:33:37.717"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:33:37.588" endtime="20200817 01:33:37.717"></status>
+</kw>
+<kw name="LinkTags" library="params">
+<arguments>
+<arg>31</arg>
+</arguments>
+<kw name="Execute Javascript" library="SeleniumLibrary">
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<arguments>
+<arg>document.querySelectorAll("a")[${POS}].click()</arg>
+</arguments>
+<msg timestamp="20200817 01:33:37.720" level="INFO">Executing JavaScript:
+document.querySelectorAll("a")[31].click()
+Without any arguments.</msg>
+<status status="PASS" starttime="20200817 01:33:37.719" endtime="20200817 01:33:48.321"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:33:37.718" endtime="20200817 01:33:48.321"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:33:37.587" endtime="20200817 01:33:48.321"></status>
+</kw>
+<kw name="Stop" library="params" type="teardown">
+<kw name="Close All Browsers" library="SeleniumLibrary">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" starttime="20200817 01:33:48.321" endtime="20200817 01:33:50.416"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:33:48.321" endtime="20200817 01:33:50.416"></status>
+</kw>
+<doc>Verifies if the Enterprise Management Logo is accessible</doc>
+<tags>
+<tag>CareersPageEnterprise Management</tag>
+</tags>
+<status status="PASS" starttime="20200817 01:33:22.424" endtime="20200817 01:33:50.416" critical="yes"></status>
+</test>
+<test id="s1-s1-t10" name="Contact Button">
+<kw name="Start" library="params" type="setup">
+<arguments>
+<arg>${BROWSER}</arg>
+<arg>${URL}</arg>
+<arg>${PathToDriver}</arg>
+</arguments>
+<kw name="Run Keyword If" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<arguments>
+<arg>"${BROWSER}" == "HeadlessChrome"</arg>
+<arg>HeadlessChrome</arg>
+<arg>${PathToDriver}</arg>
+<arg>ELSE</arg>
+<arg>driver</arg>
+<arg>${BROWSER}</arg>
+<arg>${PathToDriver}</arg>
+</arguments>
+<kw name="HeadlessChrome" library="params">
+<arguments>
+<arg>${PathToDriver}</arg>
+</arguments>
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<arguments>
+<arg>sys.modules['selenium.webdriver'].ChromeOptions()</arg>
+<arg>sys, selenium.webdriver</arg>
+</arguments>
+<assign>
+<var>${chromeOptions}</var>
+</assign>
+<msg timestamp="20200817 01:33:50.421" level="INFO">${chromeOptions} = &lt;selenium.webdriver.chrome.options.Options object at 0x000002484A66B3D0&gt;</msg>
+<status status="PASS" starttime="20200817 01:33:50.421" endtime="20200817 01:33:50.421"></status>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<arguments>
+<arg>${chromeOptions}</arg>
+<arg>add_argument</arg>
+<arg>--headless</arg>
+</arguments>
+<status status="PASS" starttime="20200817 01:33:50.422" endtime="20200817 01:33:50.422"></status>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<arguments>
+<arg>${chromeOptions}</arg>
+<arg>add_argument</arg>
+<arg>--window-size\=1366,768</arg>
+</arguments>
+<status status="PASS" starttime="20200817 01:33:50.422" endtime="20200817 01:33:50.423"></status>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<arguments>
+<arg>${chromeOptions}</arg>
+<arg>add_argument</arg>
+<arg>--disable-gpu</arg>
+</arguments>
+<status status="PASS" starttime="20200817 01:33:50.423" endtime="20200817 01:33:50.424"></status>
+</kw>
+<kw name="Create Webdriver" library="SeleniumLibrary">
+<doc>Creates an instance of Selenium WebDriver.</doc>
+<arguments>
+<arg>Chrome</arg>
+<arg>executable_path=${PathToDriver}</arg>
+<arg>chrome_options=${chromeOptions}</arg>
+</arguments>
+<msg timestamp="20200817 01:33:50.426" level="INFO">Creating an instance of the Chrome WebDriver.</msg>
+<status status="PASS" starttime="20200817 01:33:50.425" endtime="20200817 01:33:54.108"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:33:50.420" endtime="20200817 01:33:54.108"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:33:50.419" endtime="20200817 01:33:54.108"></status>
+</kw>
+<kw name="Set Window Size" library="SeleniumLibrary">
+<doc>Sets current windows size to given ``width`` and ``height``.</doc>
+<arguments>
+<arg>1920</arg>
+<arg>1640</arg>
+</arguments>
+<status status="PASS" starttime="20200817 01:33:54.108" endtime="20200817 01:33:56.353"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20200817 01:33:56.354" endtime="20200817 01:33:56.468"></status>
+</kw>
+<kw name="Go To" library="SeleniumLibrary">
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<arguments>
+<arg>${URL}</arg>
+</arguments>
+<msg timestamp="20200817 01:33:56.469" level="INFO">Opening url 'https://brainpool.ai/careers.html'</msg>
+<status status="PASS" starttime="20200817 01:33:56.468" endtime="20200817 01:34:02.134"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:33:50.418" endtime="20200817 01:34:02.134"></status>
+</kw>
+<kw name="Contact Button" library="Careers">
+<kw name="Intialization" library="params">
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` is visible.</doc>
+<arguments>
+<arg>id=component-2</arg>
+<arg>10s</arg>
+</arguments>
+<status status="PASS" starttime="20200817 01:34:02.137" endtime="20200817 01:34:02.792"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:34:02.136" endtime="20200817 01:34:02.792"></status>
+</kw>
+<kw name="Buttons" library="params">
+<arguments>
+<arg>9</arg>
+</arguments>
+<kw name="Click Button" library="SeleniumLibrary">
+<doc>Clicks the button identified by ``locator``.</doc>
+<arguments>
+<arg>id=component-${ELEMENT}</arg>
+</arguments>
+<msg timestamp="20200817 01:34:02.796" level="INFO">Clicking button 'id=component-9'.</msg>
+<status status="PASS" starttime="20200817 01:34:02.795" endtime="20200817 01:34:03.902"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:34:02.793" endtime="20200817 01:34:03.902"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:34:02.135" endtime="20200817 01:34:03.902"></status>
+</kw>
+<kw name="Stop" library="params" type="teardown">
+<kw name="Close All Browsers" library="SeleniumLibrary">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" starttime="20200817 01:34:03.904" endtime="20200817 01:34:06.053"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:34:03.903" endtime="20200817 01:34:06.053"></status>
+</kw>
+<doc>Verifies if the Contact Button is accessible</doc>
+<tags>
+<tag>CareersPageContact Button</tag>
+</tags>
+<status status="PASS" starttime="20200817 01:33:50.417" endtime="20200817 01:34:06.053" critical="yes"></status>
+</test>
+<test id="s1-s1-t11" name="Get In Touch Link">
+<kw name="Start" library="params" type="setup">
+<arguments>
+<arg>${BROWSER}</arg>
+<arg>${URL}</arg>
+<arg>${PathToDriver}</arg>
+</arguments>
+<kw name="Run Keyword If" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<arguments>
+<arg>"${BROWSER}" == "HeadlessChrome"</arg>
+<arg>HeadlessChrome</arg>
+<arg>${PathToDriver}</arg>
+<arg>ELSE</arg>
+<arg>driver</arg>
+<arg>${BROWSER}</arg>
+<arg>${PathToDriver}</arg>
+</arguments>
+<kw name="HeadlessChrome" library="params">
+<arguments>
+<arg>${PathToDriver}</arg>
+</arguments>
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<arguments>
+<arg>sys.modules['selenium.webdriver'].ChromeOptions()</arg>
+<arg>sys, selenium.webdriver</arg>
+</arguments>
+<assign>
+<var>${chromeOptions}</var>
+</assign>
+<msg timestamp="20200817 01:34:06.057" level="INFO">${chromeOptions} = &lt;selenium.webdriver.chrome.options.Options object at 0x000002484A692EB0&gt;</msg>
+<status status="PASS" starttime="20200817 01:34:06.056" endtime="20200817 01:34:06.057"></status>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<arguments>
+<arg>${chromeOptions}</arg>
+<arg>add_argument</arg>
+<arg>--headless</arg>
+</arguments>
+<status status="PASS" starttime="20200817 01:34:06.057" endtime="20200817 01:34:06.057"></status>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<arguments>
+<arg>${chromeOptions}</arg>
+<arg>add_argument</arg>
+<arg>--window-size\=1366,768</arg>
+</arguments>
+<status status="PASS" starttime="20200817 01:34:06.058" endtime="20200817 01:34:06.058"></status>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<arguments>
+<arg>${chromeOptions}</arg>
+<arg>add_argument</arg>
+<arg>--disable-gpu</arg>
+</arguments>
+<status status="PASS" starttime="20200817 01:34:06.058" endtime="20200817 01:34:06.058"></status>
+</kw>
+<kw name="Create Webdriver" library="SeleniumLibrary">
+<doc>Creates an instance of Selenium WebDriver.</doc>
+<arguments>
+<arg>Chrome</arg>
+<arg>executable_path=${PathToDriver}</arg>
+<arg>chrome_options=${chromeOptions}</arg>
+</arguments>
+<msg timestamp="20200817 01:34:06.059" level="INFO">Creating an instance of the Chrome WebDriver.</msg>
+<status status="PASS" starttime="20200817 01:34:06.059" endtime="20200817 01:34:09.254"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:34:06.056" endtime="20200817 01:34:09.254"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:34:06.055" endtime="20200817 01:34:09.254"></status>
+</kw>
+<kw name="Set Window Size" library="SeleniumLibrary">
+<doc>Sets current windows size to given ``width`` and ``height``.</doc>
+<arguments>
+<arg>1920</arg>
+<arg>1640</arg>
+</arguments>
+<status status="PASS" starttime="20200817 01:34:09.254" endtime="20200817 01:34:11.410"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20200817 01:34:11.411" endtime="20200817 01:34:11.539"></status>
+</kw>
+<kw name="Go To" library="SeleniumLibrary">
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<arguments>
+<arg>${URL}</arg>
+</arguments>
+<msg timestamp="20200817 01:34:11.540" level="INFO">Opening url 'https://brainpool.ai/careers.html'</msg>
+<status status="PASS" starttime="20200817 01:34:11.540" endtime="20200817 01:34:16.534"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:34:06.055" endtime="20200817 01:34:16.535"></status>
+</kw>
+<kw name="GetInTouch" library="Careers">
+<kw name="Intialization" library="params">
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` is visible.</doc>
+<arguments>
+<arg>id=component-2</arg>
+<arg>10s</arg>
+</arguments>
+<status status="PASS" starttime="20200817 01:34:16.538" endtime="20200817 01:34:16.714"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:34:16.536" endtime="20200817 01:34:16.715"></status>
+</kw>
+<kw name="ScrollDown" library="params">
+<arguments>
+<arg>0</arg>
+<arg>8450</arg>
+</arguments>
+<kw name="Execute Javascript" library="SeleniumLibrary">
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<arguments>
+<arg>window.scrollTo(${X},${Y})</arg>
+</arguments>
+<msg timestamp="20200817 01:34:16.718" level="INFO">Executing JavaScript:
+window.scrollTo(0,8450)
+Without any arguments.</msg>
+<status status="PASS" starttime="20200817 01:34:16.716" endtime="20200817 01:34:16.735"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:34:16.715" endtime="20200817 01:34:16.736"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>//a[contains(text(),'Get in touch')]</arg>
+</arguments>
+<msg timestamp="20200817 01:34:16.737" level="INFO">Clicking element '//a[contains(text(),'Get in touch')]'.</msg>
+<status status="PASS" starttime="20200817 01:34:16.736" endtime="20200817 01:34:23.458"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:34:16.535" endtime="20200817 01:34:23.458"></status>
+</kw>
+<kw name="Stop" library="params" type="teardown">
+<kw name="Close All Browsers" library="SeleniumLibrary">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" starttime="20200817 01:34:23.460" endtime="20200817 01:34:25.649"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:34:23.459" endtime="20200817 01:34:25.649"></status>
+</kw>
+<doc>Verifies if the contact link is accessible</doc>
+<tags>
+<tag>CareersPageContactLink</tag>
+</tags>
+<status status="PASS" starttime="20200817 01:34:06.054" endtime="20200817 01:34:25.649" critical="yes"></status>
+</test>
+<test id="s1-s1-t12" name="Open Postions1">
+<kw name="Start" library="params" type="setup">
+<arguments>
+<arg>${BROWSER}</arg>
+<arg>${URL}</arg>
+<arg>${PathToDriver}</arg>
+</arguments>
+<kw name="Run Keyword If" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<arguments>
+<arg>"${BROWSER}" == "HeadlessChrome"</arg>
+<arg>HeadlessChrome</arg>
+<arg>${PathToDriver}</arg>
+<arg>ELSE</arg>
+<arg>driver</arg>
+<arg>${BROWSER}</arg>
+<arg>${PathToDriver}</arg>
+</arguments>
+<kw name="HeadlessChrome" library="params">
+<arguments>
+<arg>${PathToDriver}</arg>
+</arguments>
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<arguments>
+<arg>sys.modules['selenium.webdriver'].ChromeOptions()</arg>
+<arg>sys, selenium.webdriver</arg>
+</arguments>
+<assign>
+<var>${chromeOptions}</var>
+</assign>
+<msg timestamp="20200817 01:34:25.655" level="INFO">${chromeOptions} = &lt;selenium.webdriver.chrome.options.Options object at 0x000002484A6922B0&gt;</msg>
+<status status="PASS" starttime="20200817 01:34:25.654" endtime="20200817 01:34:25.656"></status>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<arguments>
+<arg>${chromeOptions}</arg>
+<arg>add_argument</arg>
+<arg>--headless</arg>
+</arguments>
+<status status="PASS" starttime="20200817 01:34:25.656" endtime="20200817 01:34:25.657"></status>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<arguments>
+<arg>${chromeOptions}</arg>
+<arg>add_argument</arg>
+<arg>--window-size\=1366,768</arg>
+</arguments>
+<status status="PASS" starttime="20200817 01:34:25.657" endtime="20200817 01:34:25.658"></status>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<arguments>
+<arg>${chromeOptions}</arg>
+<arg>add_argument</arg>
+<arg>--disable-gpu</arg>
+</arguments>
+<status status="PASS" starttime="20200817 01:34:25.658" endtime="20200817 01:34:25.659"></status>
+</kw>
+<kw name="Create Webdriver" library="SeleniumLibrary">
+<doc>Creates an instance of Selenium WebDriver.</doc>
+<arguments>
+<arg>Chrome</arg>
+<arg>executable_path=${PathToDriver}</arg>
+<arg>chrome_options=${chromeOptions}</arg>
+</arguments>
+<msg timestamp="20200817 01:34:25.661" level="INFO">Creating an instance of the Chrome WebDriver.</msg>
+<status status="PASS" starttime="20200817 01:34:25.659" endtime="20200817 01:34:29.072"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:34:25.653" endtime="20200817 01:34:29.073"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:34:25.651" endtime="20200817 01:34:29.073"></status>
+</kw>
+<kw name="Set Window Size" library="SeleniumLibrary">
+<doc>Sets current windows size to given ``width`` and ``height``.</doc>
+<arguments>
+<arg>1920</arg>
+<arg>1640</arg>
+</arguments>
+<status status="PASS" starttime="20200817 01:34:29.073" endtime="20200817 01:34:31.190"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20200817 01:34:31.190" endtime="20200817 01:34:31.297"></status>
+</kw>
+<kw name="Go To" library="SeleniumLibrary">
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<arguments>
+<arg>${URL}</arg>
+</arguments>
+<msg timestamp="20200817 01:34:31.298" level="INFO">Opening url 'https://brainpool.ai/careers.html'</msg>
+<status status="PASS" starttime="20200817 01:34:31.298" endtime="20200817 01:34:38.125"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:34:25.651" endtime="20200817 01:34:38.126"></status>
+</kw>
+<kw name="Open Postions1" library="Careers">
+<kw name="Intialization" library="params">
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` is visible.</doc>
+<arguments>
+<arg>id=component-2</arg>
+<arg>10s</arg>
+</arguments>
+<status status="PASS" starttime="20200817 01:34:38.127" endtime="20200817 01:34:38.208"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:34:38.127" endtime="20200817 01:34:38.209"></status>
+</kw>
+<kw name="LinkTags" library="params">
+<arguments>
+<arg>32</arg>
+</arguments>
+<kw name="Execute Javascript" library="SeleniumLibrary">
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<arguments>
+<arg>document.querySelectorAll("a")[${POS}].click()</arg>
+</arguments>
+<msg timestamp="20200817 01:34:38.211" level="INFO">Executing JavaScript:
+document.querySelectorAll("a")[32].click()
+Without any arguments.</msg>
+<status status="PASS" starttime="20200817 01:34:38.210" endtime="20200817 01:34:44.875"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:34:38.209" endtime="20200817 01:34:44.875"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:34:38.126" endtime="20200817 01:34:44.876"></status>
+</kw>
+<kw name="Stop" library="params" type="teardown">
+<kw name="Close All Browsers" library="SeleniumLibrary">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" starttime="20200817 01:34:44.877" endtime="20200817 01:34:46.954"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:34:44.876" endtime="20200817 01:34:46.954"></status>
+</kw>
+<doc>Verifies if the 1st OpenPosition link is accessible</doc>
+<tags>
+<tag>CareersPageOpenPosition1</tag>
+</tags>
+<status status="PASS" starttime="20200817 01:34:25.650" endtime="20200817 01:34:46.954" critical="yes"></status>
+</test>
+<test id="s1-s1-t13" name="Open Postions2">
+<kw name="Start" library="params" type="setup">
+<arguments>
+<arg>${BROWSER}</arg>
+<arg>${URL}</arg>
+<arg>${PathToDriver}</arg>
+</arguments>
+<kw name="Run Keyword If" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<arguments>
+<arg>"${BROWSER}" == "HeadlessChrome"</arg>
+<arg>HeadlessChrome</arg>
+<arg>${PathToDriver}</arg>
+<arg>ELSE</arg>
+<arg>driver</arg>
+<arg>${BROWSER}</arg>
+<arg>${PathToDriver}</arg>
+</arguments>
+<kw name="HeadlessChrome" library="params">
+<arguments>
+<arg>${PathToDriver}</arg>
+</arguments>
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<arguments>
+<arg>sys.modules['selenium.webdriver'].ChromeOptions()</arg>
+<arg>sys, selenium.webdriver</arg>
+</arguments>
+<assign>
+<var>${chromeOptions}</var>
+</assign>
+<msg timestamp="20200817 01:34:46.958" level="INFO">${chromeOptions} = &lt;selenium.webdriver.chrome.options.Options object at 0x000002484A69D3D0&gt;</msg>
+<status status="PASS" starttime="20200817 01:34:46.958" endtime="20200817 01:34:46.958"></status>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<arguments>
+<arg>${chromeOptions}</arg>
+<arg>add_argument</arg>
+<arg>--headless</arg>
+</arguments>
+<status status="PASS" starttime="20200817 01:34:46.958" endtime="20200817 01:34:46.958"></status>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<arguments>
+<arg>${chromeOptions}</arg>
+<arg>add_argument</arg>
+<arg>--window-size\=1366,768</arg>
+</arguments>
+<status status="PASS" starttime="20200817 01:34:46.958" endtime="20200817 01:34:46.958"></status>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<arguments>
+<arg>${chromeOptions}</arg>
+<arg>add_argument</arg>
+<arg>--disable-gpu</arg>
+</arguments>
+<status status="PASS" starttime="20200817 01:34:46.958" endtime="20200817 01:34:46.959"></status>
+</kw>
+<kw name="Create Webdriver" library="SeleniumLibrary">
+<doc>Creates an instance of Selenium WebDriver.</doc>
+<arguments>
+<arg>Chrome</arg>
+<arg>executable_path=${PathToDriver}</arg>
+<arg>chrome_options=${chromeOptions}</arg>
+</arguments>
+<msg timestamp="20200817 01:34:46.959" level="INFO">Creating an instance of the Chrome WebDriver.</msg>
+<status status="PASS" starttime="20200817 01:34:46.959" endtime="20200817 01:34:52.514"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:34:46.958" endtime="20200817 01:34:52.515"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:34:46.958" endtime="20200817 01:34:52.515"></status>
+</kw>
+<kw name="Set Window Size" library="SeleniumLibrary">
+<doc>Sets current windows size to given ``width`` and ``height``.</doc>
+<arguments>
+<arg>1920</arg>
+<arg>1640</arg>
+</arguments>
+<status status="PASS" starttime="20200817 01:34:52.515" endtime="20200817 01:34:54.649"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20200817 01:34:54.649" endtime="20200817 01:34:54.760"></status>
+</kw>
+<kw name="Go To" library="SeleniumLibrary">
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<arguments>
+<arg>${URL}</arg>
+</arguments>
+<msg timestamp="20200817 01:34:54.761" level="INFO">Opening url 'https://brainpool.ai/careers.html'</msg>
+<status status="PASS" starttime="20200817 01:34:54.761" endtime="20200817 01:34:59.079"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:34:46.955" endtime="20200817 01:34:59.079"></status>
+</kw>
+<kw name="Open Postions2" library="Careers">
+<kw name="Intialization" library="params">
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` is visible.</doc>
+<arguments>
+<arg>id=component-2</arg>
+<arg>10s</arg>
+</arguments>
+<status status="PASS" starttime="20200817 01:34:59.081" endtime="20200817 01:34:59.167"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:34:59.079" endtime="20200817 01:34:59.168"></status>
+</kw>
+<kw name="LinkTags" library="params">
+<arguments>
+<arg>33</arg>
+</arguments>
+<kw name="Execute Javascript" library="SeleniumLibrary">
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<arguments>
+<arg>document.querySelectorAll("a")[${POS}].click()</arg>
+</arguments>
+<msg timestamp="20200817 01:34:59.170" level="INFO">Executing JavaScript:
+document.querySelectorAll("a")[33].click()
+Without any arguments.</msg>
+<status status="PASS" starttime="20200817 01:34:59.169" endtime="20200817 01:35:08.506"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:34:59.168" endtime="20200817 01:35:08.506"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:34:59.079" endtime="20200817 01:35:08.507"></status>
+</kw>
+<kw name="Stop" library="params" type="teardown">
+<kw name="Close All Browsers" library="SeleniumLibrary">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" starttime="20200817 01:35:08.508" endtime="20200817 01:35:10.603"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:35:08.507" endtime="20200817 01:35:10.605"></status>
+</kw>
+<doc>Verifies if the 2nd OpenPosition link is accessible</doc>
+<tags>
+<tag>CareersPageOpenPosition2</tag>
+</tags>
+<status status="PASS" starttime="20200817 01:34:46.954" endtime="20200817 01:35:10.605" critical="yes"></status>
+</test>
+<test id="s1-s1-t14" name="Open Postions3">
+<kw name="Start" library="params" type="setup">
+<arguments>
+<arg>${BROWSER}</arg>
+<arg>${URL}</arg>
+<arg>${PathToDriver}</arg>
+</arguments>
+<kw name="Run Keyword If" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<arguments>
+<arg>"${BROWSER}" == "HeadlessChrome"</arg>
+<arg>HeadlessChrome</arg>
+<arg>${PathToDriver}</arg>
+<arg>ELSE</arg>
+<arg>driver</arg>
+<arg>${BROWSER}</arg>
+<arg>${PathToDriver}</arg>
+</arguments>
+<kw name="HeadlessChrome" library="params">
+<arguments>
+<arg>${PathToDriver}</arg>
+</arguments>
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<arguments>
+<arg>sys.modules['selenium.webdriver'].ChromeOptions()</arg>
+<arg>sys, selenium.webdriver</arg>
+</arguments>
+<assign>
+<var>${chromeOptions}</var>
+</assign>
+<msg timestamp="20200817 01:35:10.615" level="INFO">${chromeOptions} = &lt;selenium.webdriver.chrome.options.Options object at 0x000002484A689730&gt;</msg>
+<status status="PASS" starttime="20200817 01:35:10.613" endtime="20200817 01:35:10.615"></status>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<arguments>
+<arg>${chromeOptions}</arg>
+<arg>add_argument</arg>
+<arg>--headless</arg>
+</arguments>
+<status status="PASS" starttime="20200817 01:35:10.616" endtime="20200817 01:35:10.616"></status>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<arguments>
+<arg>${chromeOptions}</arg>
+<arg>add_argument</arg>
+<arg>--window-size\=1366,768</arg>
+</arguments>
+<status status="PASS" starttime="20200817 01:35:10.617" endtime="20200817 01:35:10.617"></status>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<arguments>
+<arg>${chromeOptions}</arg>
+<arg>add_argument</arg>
+<arg>--disable-gpu</arg>
+</arguments>
+<status status="PASS" starttime="20200817 01:35:10.618" endtime="20200817 01:35:10.619"></status>
+</kw>
+<kw name="Create Webdriver" library="SeleniumLibrary">
+<doc>Creates an instance of Selenium WebDriver.</doc>
+<arguments>
+<arg>Chrome</arg>
+<arg>executable_path=${PathToDriver}</arg>
+<arg>chrome_options=${chromeOptions}</arg>
+</arguments>
+<msg timestamp="20200817 01:35:10.620" level="INFO">Creating an instance of the Chrome WebDriver.</msg>
+<status status="PASS" starttime="20200817 01:35:10.619" endtime="20200817 01:35:13.826"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:35:10.611" endtime="20200817 01:35:13.827"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:35:10.610" endtime="20200817 01:35:13.827"></status>
+</kw>
+<kw name="Set Window Size" library="SeleniumLibrary">
+<doc>Sets current windows size to given ``width`` and ``height``.</doc>
+<arguments>
+<arg>1920</arg>
+<arg>1640</arg>
+</arguments>
+<status status="PASS" starttime="20200817 01:35:13.827" endtime="20200817 01:35:15.939"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20200817 01:35:15.939" endtime="20200817 01:35:16.047"></status>
+</kw>
+<kw name="Go To" library="SeleniumLibrary">
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<arguments>
+<arg>${URL}</arg>
+</arguments>
+<msg timestamp="20200817 01:35:16.048" level="INFO">Opening url 'https://brainpool.ai/careers.html'</msg>
+<status status="PASS" starttime="20200817 01:35:16.047" endtime="20200817 01:35:21.562"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:35:10.608" endtime="20200817 01:35:21.562"></status>
+</kw>
+<kw name="Open Postions3" library="Careers">
+<kw name="Intialization" library="params">
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` is visible.</doc>
+<arguments>
+<arg>id=component-2</arg>
+<arg>10s</arg>
+</arguments>
+<status status="PASS" starttime="20200817 01:35:21.563" endtime="20200817 01:35:21.669"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:35:21.563" endtime="20200817 01:35:21.669"></status>
+</kw>
+<kw name="LinkTags" library="params">
+<arguments>
+<arg>34</arg>
+</arguments>
+<kw name="Execute Javascript" library="SeleniumLibrary">
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<arguments>
+<arg>document.querySelectorAll("a")[${POS}].click()</arg>
+</arguments>
+<msg timestamp="20200817 01:35:21.672" level="INFO">Executing JavaScript:
+document.querySelectorAll("a")[34].click()
+Without any arguments.</msg>
+<status status="PASS" starttime="20200817 01:35:21.670" endtime="20200817 01:35:35.665"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:35:21.670" endtime="20200817 01:35:35.665"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:35:21.562" endtime="20200817 01:35:35.665"></status>
+</kw>
+<kw name="Stop" library="params" type="teardown">
+<kw name="Close All Browsers" library="SeleniumLibrary">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" starttime="20200817 01:35:35.666" endtime="20200817 01:35:37.758"></status>
+</kw>
+<status status="PASS" starttime="20200817 01:35:35.666" endtime="20200817 01:35:37.758"></status>
+</kw>
+<doc>Verifies if the 3rd OpenPosition link is accessible</doc>
+<tags>
+<tag>CareersPageOpenPosition3</tag>
+</tags>
+<status status="PASS" starttime="20200817 01:35:10.606" endtime="20200817 01:35:37.758" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20200817 01:30:35.306" endtime="20200817 01:35:37.760"></status>
+</suite>
+<status status="PASS" starttime="20200817 01:30:35.243" endtime="20200817 01:35:37.766"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="14" fail="0">Critical Tests</stat>
+<stat pass="14" fail="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0">CareersPageAIBusiness</stat>
+<stat pass="1" fail="0">CareersPageApply</stat>
+<stat pass="1" fail="0">CareersPageBloomberg</stat>
+<stat pass="1" fail="0">CareersPageContact Button</stat>
+<stat pass="1" fail="0">CareersPageContactLink</stat>
+<stat pass="1" fail="0">CareersPageEnterprise Management</stat>
+<stat pass="1" fail="0">CareersPageMedium</stat>
+<stat pass="1" fail="0">CareersPageOpenPosition1</stat>
+<stat pass="1" fail="0">CareersPageOpenPosition2</stat>
+<stat pass="1" fail="0">CareersPageOpenPosition3</stat>
+<stat pass="1" fail="0">CareersPageRaconteur</stat>
+<stat pass="1" fail="0">CareersPageTheStack</stat>
+<stat pass="1" fail="0">CnPsPageForbes</stat>
+<stat pass="1" fail="0">Smoke</stat>
+</tag>
+<suite>
+<stat pass="14" fail="0" id="s1" name="Suites">Suites</stat>
+<stat pass="14" fail="0" id="s1-s1" name="CareersPage">Suites.CareersPage</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

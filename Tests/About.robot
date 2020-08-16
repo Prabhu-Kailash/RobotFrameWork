@@ -1,10 +1,11 @@
 *** Settings ***
 Resource    ../Resources/Page Objects/AboutUs.robot
-Test Setup    Start    ${BROWSER}    ${URL}
+Test Setup    Start    ${BROWSER}    ${URL}    ${PathToDriver}
 Test Teardown    Stop
 
 *** Variables ***
-${BROWSER} =    Chrome
+${BROWSER} =    HeadlessChrome    #Options = HeadlessChrome, Chrome
+${PathToDriver} =    D:/chromedriver.exe
 ${URL} =    https://brainpool.ai/about.html
 
 *** Test Cases ***

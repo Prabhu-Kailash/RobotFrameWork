@@ -1,0 +1,34 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.ContactPage                                                            
+==============================================================================
+Site accessibility :: site accessibility test                         | PASS |
+------------------------------------------------------------------------------
+ContactUS Start Now Button :: Verifies if the Start Now button is ... | PASS |
+------------------------------------------------------------------------------
+Forbes Logo :: Verifies if the Forbes Logo is accessible              | PASS |
+------------------------------------------------------------------------------
+Bloomberg Logo :: Verifies if the Bloomberg Logo is accessible        | PASS |
+------------------------------------------------------------------------------
+Raconteur Logo :: Verifies if the Raconteur Logo is accessible        | PASS |
+------------------------------------------------------------------------------
+Medium Logo :: Verifies if the Medium Logo is accessible              | PASS |
+------------------------------------------------------------------------------
+AI Business Logo :: Verifies if the AI Business Logo is accessible    | PASS |
+------------------------------------------------------------------------------
+The Stack Logo :: Verifies if the The Stack Logo is accessible        | PASS |
+------------------------------------------------------------------------------
+EmailAddress :: Verifies if the Email Address is accessible           | PASS |
+------------------------------------------------------------------------------
+ContactUS form :: Verifies if the contact form is accessible          | PASS |
+------------------------------------------------------------------------------
+Suites.ContactPage                                                    | PASS |
+10 critical tests, 10 passed, 0 failed
+10 tests total, 10 passed, 0 failed
+==============================================================================
+Suites                                                                | PASS |
+10 critical tests, 10 passed, 0 failed
+10 tests total, 10 passed, 0 failed
+==============================================================================
+Output:  C:\Users\pegAsus\workspace_python\SeleniumTrails\WebSiteTesting\Results\pabot_results\4\output.xml

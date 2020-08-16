@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation    About Us Page
+Documentation    OurProducts Page
 Library    SeleniumLibrary
 Resource    ../params.robot
 

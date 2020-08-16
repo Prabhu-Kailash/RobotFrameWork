@@ -1,0 +1,36 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.AIBPage                                                                
+==============================================================================
+Site accessibility :: site accessibility test                         | PASS |
+------------------------------------------------------------------------------
+Start Now :: Verifies if the Start Now button is accessible           | PASS |
+------------------------------------------------------------------------------
+Forbes Logo :: Verifies if the Forbes Logo is accessible              | PASS |
+------------------------------------------------------------------------------
+Bloomberg Logo :: Verifies if the Bloomberg Logo is accessible        | PASS |
+------------------------------------------------------------------------------
+Raconteur Logo :: Verifies if the Raconteur Logo is accessible        | PASS |
+------------------------------------------------------------------------------
+Medium Logo :: Verifies if the Medium Logo is accessible              | PASS |
+------------------------------------------------------------------------------
+AI Business Logo :: Verifies if the AI Business Logo is accessible    | PASS |
+------------------------------------------------------------------------------
+The Stack Logo :: Verifies if the The Stack Logo is accessible        | PASS |
+------------------------------------------------------------------------------
+GetStarted :: Verifies if the Get Started button is accessible        | PASS |
+------------------------------------------------------------------------------
+ContactAction :: Verifies if the contact us is accessible             | PASS |
+------------------------------------------------------------------------------
+ContactForm :: Verifies if the contact form is accessible             | PASS |
+------------------------------------------------------------------------------
+Suites.AIBPage                                                        | PASS |
+11 critical tests, 11 passed, 0 failed
+11 tests total, 11 passed, 0 failed
+==============================================================================
+Suites                                                                | PASS |
+11 critical tests, 11 passed, 0 failed
+11 tests total, 11 passed, 0 failed
+==============================================================================
+Output:  C:\Users\pegAsus\workspace_python\SeleniumTrails\WebSiteTesting\Results\pabot_results\0\output.xml

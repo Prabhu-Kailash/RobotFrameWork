@@ -1,0 +1,22 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.FAQ                                                                    
+==============================================================================
+Site accessibility :: site accessibility test                         | PASS |
+------------------------------------------------------------------------------
+EmailAddress :: Verifies if the Email Address is accessible           | PASS |
+------------------------------------------------------------------------------
+Get In Touch1 :: Verifies if the 1st contact link is accessible       | PASS |
+------------------------------------------------------------------------------
+Get In Touch2 :: Verifies if the 2nd contact link is accessible       | PASS |
+------------------------------------------------------------------------------
+Suites.FAQ                                                            | PASS |
+4 critical tests, 4 passed, 0 failed
+4 tests total, 4 passed, 0 failed
+==============================================================================
+Suites                                                                | PASS |
+4 critical tests, 4 passed, 0 failed
+4 tests total, 4 passed, 0 failed
+==============================================================================
+Output:  C:\Users\pegAsus\workspace_python\SeleniumTrails\WebSiteTesting\Results\pabot_results\5\output.xml
