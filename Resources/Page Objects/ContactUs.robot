@@ -7,11 +7,11 @@ Library    SeleniumLibrary
 *** Keywords ***
 
 Start Now
-    wait until element is visible    id=component-2
+    Intialization
     Buttons    2
 
 ContactForm
-    wait until element is visible    id=component-2
+    Intialization
     ScrollDown    0    800
     input text    id=contact-name    Hello World
     input text    id=contact-email   HelloWorld@email.com

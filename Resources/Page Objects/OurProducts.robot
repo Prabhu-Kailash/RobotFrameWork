@@ -6,57 +6,49 @@ Resource    ../params.robot
 
 *** Keywords ***
 
-Start Now
+Get Started
     Intialization
     Buttons    2
 
 Forbes
     Intialization
-    LinkTags    33
+    LinkTags    25
 
 Bloomberg
     Intialization
-    LinkTags    34
+    LinkTags    26
 
 Raconteur
     Intialization
-    LinkTags    35
+    LinkTags    27
 
 Medium
     Intialization
-    LinkTags    36
+    LinkTags    28
 
 AI Business
     Intialization
-    LinkTags    37
+    LinkTags    29
 
 The Stack
     Intialization
-    LinkTags    38
+    LinkTags    30
 
-Enterprise Management
+ProductsDaisy
     Intialization
-    LinkTags    39
+    click link    https://daisy.ai/
 
-LearnMore
+ProductsForstack
     Intialization
-    Buttons    22
+    click link    https://forstack.brainpool.ai
 
-ServicesDeployAISolutions
+Daisy
     Intialization
-    click link    ./services.html#solutions
+    click element    //a[contains(text(),'What is Daisy?')]
 
-ServicesAIWorkshops
+Forstack
     Intialization
-    click link    ./services.html#workshop
-
-ServicesStaffAugmentation
-    Intialization
-    click link    ./services.html#ad-hocai
-
-ServicesAIScopingProgrammes
-    Intialization
-    click link    ./services.html#process-detail
+    click element    //a[contains(text(),'What is Forstack?​​​​')]
 
 contactAction
     Intialization
@@ -74,3 +66,4 @@ ContatUsForm
     click button    id=contact-allpage
     sleep    2s
     page should contain    Thank you, a member of our team will be in touch shortly.
+
