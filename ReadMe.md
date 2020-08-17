@@ -1,6 +1,6 @@
 ## Robot Framework with Parallel Integration
 
-#### Prerequisites to run the Test Suites
+### Prerequisites to run the Test Suites
 
 Make sure below packages are installed using PIP command.
 
@@ -10,7 +10,7 @@ Make sure below packages are installed using PIP command.
 
 Note:- Relative Chromedriver/edgedriver/geckodriver version (Depending the choice of Browser) with the Chrome/Edge/Firefox running on your machine and Python 3.x higher versions required.
 
-#### Guidelines to follow
+### Guidelines to follow
 
 All Test Suites are as default configured to run in "HeadlessChrome" mode it can be changed by editing below line in all the Test Suites (i.e., .robot files under the directory Tests) -
 
@@ -24,7 +24,7 @@ Path to the respective drivers need to specified before running any of the test 
 
 `${PathToDriver} =    D:/chromedriver.exe`
 
-#### Terminal Commands for parallel execution using Pabot and  Passing variables at command line
+### Terminal Commands for parallel execution using Pabot and  Passing variables at command line
 
 * Below command runs/invokes all the 9 Tests Suites under the directory "Test" in parallel.
 
