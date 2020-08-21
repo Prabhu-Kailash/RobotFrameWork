@@ -15,7 +15,8 @@ Raconteur Logo :: Verifies if the Raconteur Logo is accessible        | PASS |
 ------------------------------------------------------------------------------
 Medium Logo :: Verifies if the Medium Logo is accessible              | PASS |
 ------------------------------------------------------------------------------
-AI Business Logo :: Verifies if the AI Business Logo is accessible    | PASS |
+AI Business Logo :: Verifies if the AI Business Logo is accessible    | FAIL |
+Element 'id=component-2' not visible after 10 seconds.
 ------------------------------------------------------------------------------
 The Stack Logo :: Verifies if the Stack Logo is accessible            | PASS |
 ------------------------------------------------------------------------------
@@ -41,12 +42,12 @@ Know More About Ethical AI :: Verifies if the Know More About Ethi... | PASS |
 ------------------------------------------------------------------------------
 Contact Button :: Verifies if the Contact Button is accessible        | PASS |
 ------------------------------------------------------------------------------
-Suites.ClientAndPartners                                              | PASS |
-19 critical tests, 19 passed, 0 failed
-19 tests total, 19 passed, 0 failed
+Suites.ClientAndPartners                                              | FAIL |
+19 critical tests, 18 passed, 1 failed
+19 tests total, 18 passed, 1 failed
 ==============================================================================
-Suites                                                                | PASS |
-19 critical tests, 19 passed, 0 failed
-19 tests total, 19 passed, 0 failed
+Suites                                                                | FAIL |
+19 critical tests, 18 passed, 1 failed
+19 tests total, 18 passed, 1 failed
 ==============================================================================
-Output:  C:\Users\pegAsus\workspace_python\SeleniumTrails\WebSiteTesting\Results\pabot_results\3\output.xml
+Output:  C:\Users\pegAsus\workspace_python\SeleniumTrails\WebSiteTesting\results\pabot_results\3\output.xml

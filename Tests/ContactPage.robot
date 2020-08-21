@@ -1,11 +1,10 @@
 *** Settings ***
 Resource    ../Resources/Page Objects/ContactUs.robot
-Test Setup    Start    ${BROWSER}    ${URL}    ${PathToDriver}
+Test Setup    Start    ${BROWSER}    ${URL}
 Test Teardown    Stop
 
 *** Variables ***
 ${BROWSER} =    HeadlessChrome    #Options = HeadlessChrome, Chrome
-${PathToDriver} =    D:/chromedriver.exe
 ${URL} =    https://brainpool.ai/contact.html
 
 *** Test Cases ***

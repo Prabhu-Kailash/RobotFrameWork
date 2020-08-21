@@ -1,11 +1,10 @@
 *** Settings ***
 Resource    ../Resources/Page Objects/CnP.robot
-Test Setup    Start    ${BROWSER}    ${URL}    ${PathToDriver}
+Test Setup    Start    ${BROWSER}    ${URL}
 Test Teardown    Stop
 
 *** Variables ***
 ${BROWSER} =    HeadlessChrome    #Options = HeadlessChrome, Chrome
-${PathToDriver} =    D:/chromedriver.exe
 ${URL} =    https://brainpool.ai/clients-and-partners.html
 
 *** Test Cases ***

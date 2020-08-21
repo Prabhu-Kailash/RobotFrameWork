@@ -25,18 +25,19 @@ Forstack :: Verifies if the Forstack is accessible                    | PASS |
 ------------------------------------------------------------------------------
 Daisytext :: Verifies if the Daisy text is accessible                 | PASS |
 ------------------------------------------------------------------------------
-Forstacktext :: Verifies if the Forstack text is accessible           | PASS |
+Forstacktext :: Verifies if the Forstack text is accessible           | FAIL |
+Element with locator '//a[contains(text(),'What is Forstack?????')]' not found.
 ------------------------------------------------------------------------------
 ContactAction :: Verifies if the contact us is accessible             | PASS |
 ------------------------------------------------------------------------------
 ContactForm :: Verifies if the contact form is accessible             | PASS |
 ------------------------------------------------------------------------------
-Suites.ProductsPage                                                   | PASS |
-14 critical tests, 14 passed, 0 failed
-14 tests total, 14 passed, 0 failed
+Suites.ProductsPage                                                   | FAIL |
+14 critical tests, 13 passed, 1 failed
+14 tests total, 13 passed, 1 failed
 ==============================================================================
-Suites                                                                | PASS |
-14 critical tests, 14 passed, 0 failed
-14 tests total, 14 passed, 0 failed
+Suites                                                                | FAIL |
+14 critical tests, 13 passed, 1 failed
+14 tests total, 13 passed, 1 failed
 ==============================================================================
-Output:  C:\Users\pegAsus\workspace_python\SeleniumTrails\WebSiteTesting\Results\pabot_results\7\output.xml
+Output:  C:\Users\pegAsus\workspace_python\SeleniumTrails\WebSiteTesting\results\pabot_results\7\output.xml

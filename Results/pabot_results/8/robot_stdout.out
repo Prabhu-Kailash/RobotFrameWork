@@ -5,7 +5,8 @@ Suites.ServicesPage
 ==============================================================================
 Site accessibility :: site accessibility test                         | PASS |
 ------------------------------------------------------------------------------
-Start Now :: Verifies if the Start Now button is accessible           | PASS |
+Start Now :: Verifies if the Start Now button is accessible           | FAIL |
+Element 'id=component-2' not visible after 10 seconds.
 ------------------------------------------------------------------------------
 Forbes Logo :: Verifies if the Forbes Logo is accessible              | PASS |
 ------------------------------------------------------------------------------
@@ -13,7 +14,8 @@ Bloomberg Logo :: Verifies if the Bloomberg Logo is accessible        | PASS |
 ------------------------------------------------------------------------------
 Raconteur Logo :: Verifies if the Raconteur Logo is accessible        | PASS |
 ------------------------------------------------------------------------------
-Medium Logo :: Verifies if the Medium Logo is accessible              | PASS |
+Medium Logo :: Verifies if the Medium Logo is accessible              | FAIL |
+Element 'id=component-2' not visible after 10 seconds.
 ------------------------------------------------------------------------------
 AI Business Logo :: Verifies if the AI Business Logo is accessible    | PASS |
 ------------------------------------------------------------------------------
@@ -35,12 +37,12 @@ ContactAction :: Verifies if the contact us is accessible             | PASS |
 ------------------------------------------------------------------------------
 ContactForm :: Verifies if the contact form is accessible             | PASS |
 ------------------------------------------------------------------------------
-Suites.ServicesPage                                                   | PASS |
-16 critical tests, 16 passed, 0 failed
-16 tests total, 16 passed, 0 failed
+Suites.ServicesPage                                                   | FAIL |
+16 critical tests, 14 passed, 2 failed
+16 tests total, 14 passed, 2 failed
 ==============================================================================
-Suites                                                                | PASS |
-16 critical tests, 16 passed, 0 failed
-16 tests total, 16 passed, 0 failed
+Suites                                                                | FAIL |
+16 critical tests, 14 passed, 2 failed
+16 tests total, 14 passed, 2 failed
 ==============================================================================
-Output:  C:\Users\pegAsus\workspace_python\SeleniumTrails\WebSiteTesting\Results\pabot_results\8\output.xml
+Output:  C:\Users\pegAsus\workspace_python\SeleniumTrails\WebSiteTesting\results\pabot_results\8\output.xml
