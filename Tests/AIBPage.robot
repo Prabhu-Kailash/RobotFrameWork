@@ -6,7 +6,10 @@ Test Teardown    Stop
 *** Variables ***
 ${BROWSER} =    HeadlessChrome    #Options = HeadlessChrome, Chrome
 ${URL} =    URL
+<<<<<<< HEAD
 
+=======
+>>>>>>> 4af514bb6e6ae66e91e164e1139b2f955bec6411
 *** Test Cases ***
 Site accessibility
     [Documentation]  site accessibility test
