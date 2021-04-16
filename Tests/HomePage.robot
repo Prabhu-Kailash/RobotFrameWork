@@ -5,7 +5,7 @@ Test Teardown    Stop
 
 *** Variables ***
 ${BROWSER} =    HeadlessChrome    #Options = HeadlessChrome, Chrome
-${URL} =    https://brainpool.ai/
+${URL} =    URL
 
 *** Test Cases ***
 Site accessibility

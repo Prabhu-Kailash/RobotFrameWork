@@ -12,32 +12,32 @@ Start Now
     sleep    5s
     select frame    xpath=/html/body/iframe[1]
     wait until page contains    Achieve Your AI Objectives
-    go to    https://brainpool.ai
+    go to    URL
     wait until element is visible    id=component-2    10s
 
 Forbes
     Intialization
-    click link    https://www.forbes.com/sites/kasiaborowska/#564b89231eaa
+    click link    hURL
 
 Bloomberg
     Intialization
-    click link    https://www.bloomberg.com/news/articles/2018-04-02/what-facebook-s-data-scandal-really-means-for-regulators
+    click link    URL
 
 Raconteur
     Intialization
-    click link    https://www.raconteur.net/business-innovation/smart-outsource-ai
+    click link    URL
 
 Medium
     Intialization
-    click link    https://medium.com/center-for-data-science/brainpool-ai-a-new-platform-bridging-the-gap-between-science-industry-26123e8c6223
+    click link    hURL
 
 AI Business
     Intialization
-    click link    https://aibusiness.com/brainpool-data-science-view/
+    click link    URL
 
 Enterprise Management
     Intialization
-    click link    https://www.em360tech.com/ai_enterprise/videos/ai-consulting-top-10-2/
+    click link    URL
 
 ServicesDeployAISolutions
     Intialization

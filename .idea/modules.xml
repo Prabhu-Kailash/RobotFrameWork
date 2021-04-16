@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../PayStubs_SpanTesting/.idea/PayStubs_SpanTesting.iml" filepath="$PROJECT_DIR$/../../PayStubs_SpanTesting/.idea/PayStubs_SpanTesting.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/WebSiteTesting.iml" filepath="$PROJECT_DIR$/.idea/WebSiteTesting.iml" />
     </modules>
   </component>

@@ -6,7 +6,7 @@ Resource    ../params.robot
 
 *** Keywords ***
 Intialize
-    wait until page contains    contact@brainpool.ai
+    wait until page contains    URL
 
 EmailAddress
     Intialize
